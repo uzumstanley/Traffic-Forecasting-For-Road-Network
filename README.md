@@ -5,6 +5,19 @@
 
    ###                                                              INTRODUCTION
 
+Traffic congestion in urban areas is a major problem, significantly impacting the economic well-being and quality of life in cities. This issue is particularly acute in large metropolitan areas where population growth and urban expansion exacerbate traffic challenges. Effective traffic forecasting and route optimization for road networks are essential for urban planners and policymakers to manage congestion, improve mobility, and enhance urban living conditions.
+
+[1]London, a prime example of a city grappling with traffic congestion, experienced significant levels of congestion in 2023. Key findings indicate that traffic volumes have remained stable over the last decade, with noticeable declines during the pandemic and subsequent recovery in 2021 and 2022. Post-pandemic traffic levels have remained lower than before, particularly in central and inner London, while outer London saw only a five percent decline compared to 2019. Despite population growth, car use per capita has decreased, reflecting changes in transportation habits.
+
+[2]Congestion statistics for London in 2023 reveal that drivers spent an average of 99 hours stuck in traffic, making it the most congested city in Europe. Average speeds in central London fell by 10 percent to just 10 mph, resulting in an estimated economic loss of £3.8 billion due to congestion. These figures underscore the critical need for advanced traffic forecasting and route optimization methods to manage congestion and prevent substantial economic losses.
+
+This project aims to leverage the Transport for London (TfL) dataset, which contains comprehensive historical traffic data, to predict the shortest or fastest routes within the London road network. By utilizing this dataset, models that provide real-time route optimization can be develop, thereby reducing travel times and congestion. Traditional methods, such as time series analysis and machine learning models, have been used extensively for traffic prediction. However, the complex and dynamic nature of urban traffic requires more sophisticated approaches that can capture both spatial and temporal dependencies in traffic data.
+
+Recent advancements in deep learning, particularly graph neural networks (GNNs), offer a promising solution for traffic forecasting and route optimization. GNNs can model the road network as a graph, where nodes represent traffic sensors or road segments and edges represent the connections between them. By capturing the spatial relationships and integrating temporal patterns, GNNs provide a robust framework for predicting the shortest or fastest routes based on real-time and historical traffic data.
+
+This project will explore and develop advanced traffic forecasting models using the TfL dataset to predict optimal routes in London's road network. By improving the accuracy and efficiency of these predictions, we aim to enhance urban traffic management, reduce congestion, and mitigate its economic impact. This research will contribute to the field of intelligent transportation systems (ITS) and provide practical solutions for urban traffic challenges.
+
+
 
 
 
@@ -97,7 +110,7 @@
 
 
 
-
+The following sections will review the literature on traffic forecasting methodologies, present the proposed models for route optimization, and discuss the experimental results and their implications for urban traffic management.
 
 
 ###                                                               LITERATURE REVIEW
@@ -109,13 +122,13 @@ Traffic forecasting is a critical component of intelligent transportation system
 
 ####                                        Graph Deep Learning-Based Traffic Flow Prediction
 
-A significant contribution to traffic forecasting comes from the work titled "A Graph Deep Learning-Based Fast Traffic Flow Prediction Method in Urban Road Networks" by Zhang et al. (2023). [1]This study leverages graph neural networks (GNNs) to predict traffic flow, emphasizing the spatial and temporal dependencies in urban road networks. The proposed model, TrafficGraphNet, incorporates spatial features of the road network and temporal patterns of traffic flow, achieving high prediction accuracy and efficiency.
+A significant contribution to traffic forecasting comes from the work titled "A Graph Deep Learning-Based Fast Traffic Flow Prediction Method in Urban Road Networks" by Zhang et al. (2023). [3]This study leverages graph neural networks (GNNs) to predict traffic flow, emphasizing the spatial and temporal dependencies in urban road networks. The proposed model, TrafficGraphNet, incorporates spatial features of the road network and temporal patterns of traffic flow, achieving high prediction accuracy and efficiency.
 
 The methodology involves constructing a graph where nodes represent traffic sensors and edges represent road segments. A GNN is employed to capture the spatial dependencies, while a temporal convolutional network (TCN) handles the temporal aspects. The integration of these components enables the model to predict traffic flow effectively, outperforming traditional statistical models and other deep learning approaches【10†source】.
 
 ####                                        Traffic Congestion Forecasting Model Using CMTF and Machine Learning
 
-Another noteworthy study is "A Traffic Congestion Forecasting Model using CMTF and Machine Learning" by Chowdhury et al. (2018). [2]This research addresses traffic congestion prediction by proposing a Circular Model of Traffic Forecasting (CMTF), which integrates machine learning techniques with a node-based approach. The model utilizes traffic density data from sensor networks to forecast congestion levels at intersections.
+Another noteworthy study is "A Traffic Congestion Forecasting Model using CMTF and Machine Learning" by Chowdhury et al. (2018). [4]This research addresses traffic congestion prediction by proposing a Circular Model of Traffic Forecasting (CMTF), which integrates machine learning techniques with a node-based approach. The model utilizes traffic density data from sensor networks to forecast congestion levels at intersections.
 
 The CMTF model operates by drawing circles around targeted intersections based on their adjacent nodes, calculating the congestion of these nodes, and using this information for prediction. The study employs time series analysis and the Prophet library for long-term and short-term congestion forecasting, respectively. This method allows for real-time traffic density calculation and provides a robust framework for predicting traffic conditions in urban areas with poor infrastructure and management【10†source】.
 
@@ -188,8 +201,12 @@ This dataset is an invaluable resource for urban planners, researchers, and anyo
 
 
 ###                                                                                  REFERENCES 
-[1]. Yang, D., & Lv, L. (2023). A Graph Deep Learning-Based Fast Traffic Flow Prediction Method in Urban Road Networks. IEEE Access, 11, 93754-93767. doi: 10.1109/ACCESS.2023.3308238.
-[2]. Chowdhury, M. M., Hasan, M., Safait, S., Chaki, D., & Uddin, J. (2018). A Traffic Congestion Forecasting Model using CMTF and Machine Learning. *Proceedings of the 2018 Joint 7th International Conference on Informatics, Electronics & Vision (ICIEV) and 2018 2nd International Conference on Imaging, Vision & Pattern Recognition (icIVPR)*. DOI: 10.1109/ICIEV.2018.XXXXX.
+[1]. Transport for London report : https://tfl.gov.uk/cdn/static/cms/documents/travel-in-london-2023-road-traffic-trends-acc.pdf
+
+[2]. Inrix traffic scorecard : https://www.standard.co.uk/news/london/traffic-congestion-survey-inrix-london-roads-europe-new-york-b1166590.html
+
+[3]. Yang, D., & Lv, L. (2023). A Graph Deep Learning-Based Fast Traffic Flow Prediction Method in Urban Road Networks. IEEE Access, 11, 93754-93767. doi: 10.1109/ACCESS.2023.3308238.
+[4]. Chowdhury, M. M., Hasan, M., Safait, S., Chaki, D., & Uddin, J. (2018). A Traffic Congestion Forecasting Model using CMTF and Machine Learning. *Proceedings of the 2018 Joint 7th International Conference on Informatics, Electronics & Vision (ICIEV) and 2018 2nd International Conference on Imaging, Vision & Pattern Recognition (icIVPR)*. DOI: 10.1109/ICIEV.2018.XXXXX.
 
 
 

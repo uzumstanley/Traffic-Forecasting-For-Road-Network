@@ -120,19 +120,19 @@ The following sections will review the literature on traffic forecasting methodo
 
 Traffic forecasting is a critical component of intelligent transportation systems (ITS), aiming to alleviate congestion and improve urban mobility. Various methodologies and models have been proposed to address the challenges of traffic prediction. This literature review explores several key approaches, focusing on the application of deep learning, machine learning, and statistical methods in traffic forecasting.
 
-####                                        Graph Deep Learning-Based Traffic Flow Prediction
+####                                                  GRAPH DEEP LEARNING-BASED TRAFFIC FLOW PREDICTION
 
 A significant contribution to traffic forecasting comes from the work titled "A Graph Deep Learning-Based Fast Traffic Flow Prediction Method in Urban Road Networks" by Zhang et al. (2023). [3]This study leverages graph neural networks (GNNs) to predict traffic flow, emphasizing the spatial and temporal dependencies in urban road networks. The proposed model, TrafficGraphNet, incorporates spatial features of the road network and temporal patterns of traffic flow, achieving high prediction accuracy and efficiency.
 
 The methodology involves constructing a graph where nodes represent traffic sensors and edges represent road segments. A GNN is employed to capture the spatial dependencies, while a temporal convolutional network (TCN) handles the temporal aspects. The integration of these components enables the model to predict traffic flow effectively, outperforming traditional statistical models and other deep learning approaches【10†source】.
 
-####                                        Traffic Congestion Forecasting Model Using CMTF and Machine Learning
+####                                             TRAFFIC CONGESTION FORECASTING MODEL USING CMTF AND MACHINE LEARNING
 
 Another noteworthy study is "A Traffic Congestion Forecasting Model using CMTF and Machine Learning" by Chowdhury et al. (2018). [4]This research addresses traffic congestion prediction by proposing a Circular Model of Traffic Forecasting (CMTF), which integrates machine learning techniques with a node-based approach. The model utilizes traffic density data from sensor networks to forecast congestion levels at intersections.
 
 The CMTF model operates by drawing circles around targeted intersections based on their adjacent nodes, calculating the congestion of these nodes, and using this information for prediction. The study employs time series analysis and the Prophet library for long-term and short-term congestion forecasting, respectively. This method allows for real-time traffic density calculation and provides a robust framework for predicting traffic conditions in urban areas with poor infrastructure and management【10†source】.
 
-####                                                             Comparative Analysis and Trends
+####                                                                 COMPARATIVE ANALYSIS AND TRENDS
 
 Comparative studies highlight the advantages and limitations of different traffic forecasting approaches. Traditional methods, such as Kalman filtering and autoregressive integrated moving average (ARIMA) models, have been widely used but often fall short in capturing complex traffic dynamics. In contrast, machine learning models, including neural networks and ensemble methods, have shown improved performance by leveraging large datasets and sophisticated algorithms.
 

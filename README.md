@@ -18,6 +18,10 @@ Sample Figure: A flow network showing flow and capacity
 
 
 
+### Shortest path problem
+In graph theory, the shortest path problem involves identifying a path between two vertices (or nodes) in a graph such that the total weight of its edges is minimized.
+
+For instance, determining the shortest route between two intersections on a road map can be modeled as a specific instance of the shortest path problem in graphs. In this model, vertices represent intersections, edges represent road segments, and each edge is weighted according to the length of the corresponding road segment.
 
 
 

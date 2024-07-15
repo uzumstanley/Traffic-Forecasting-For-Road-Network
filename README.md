@@ -27,6 +27,7 @@ For instance, determining the shortest route between two intersections on a road
 
 
 ![image](https://github.com/user-attachments/assets/575d3460-02cf-4597-8b34-fda853a68a66)
+Shortest path (A, C, E, D, F) between vertices A and F in the weighted directed graph
 
 
 

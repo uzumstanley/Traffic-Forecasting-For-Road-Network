@@ -12,6 +12,9 @@ A network is a directed graph \( G = (V, E) \) characterized by a non-negative c
 
 When two nodes in \( G \) are specified—one as the source \( s \) and the other as the sink \( t \)—the tuple \( (G, c, s, t) \) is referred to as a flow network.
 
+![image](https://github.com/user-attachments/assets/928b84ca-cf37-4054-a561-69ef9897cfd6)
+
+
 ![image](https://github.com/user-attachments/assets/575d3460-02cf-4597-8b34-fda853a68a66)
 
 

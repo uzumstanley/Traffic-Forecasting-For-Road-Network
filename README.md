@@ -7,6 +7,9 @@ The coming of the intelligent transport system has pointed out the critical nece
 A transport network, also known as a transportation network, is a system or graph within a geographic space that outlines the infrastructure enabling and limiting movement or flow.[1] Examples encompass road networks, railways, air routes, pipelines, aqueducts, and power lines. Digitally representing these networks and the techniques for their examination are fundamental to spatial analysis, geographic information systems, public utilities, and transport engineering. Network analysis applies the theories and algorithms of graph theory and constitutes a type of proximity analysis.
 
 
+![image](https://github.com/user-attachments/assets/575d3460-02cf-4597-8b34-fda853a68a66)
+
+
 
 
 ### PROBLEM STATEMENT

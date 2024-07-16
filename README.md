@@ -22,6 +22,14 @@ In a discrete network, movement between vertices is limited to finite, discrete,
 
 Additionally, dynamic networks were introduced, which do not impose discrete connections but still assign a cost to visiting a vertex. These models accommodate more flexible and nuanced representations of real-world transportation systems.
 
+The search algorithms for finding optimal paths in discrete, discrete dynamic, and dynamic networks are distinct due to the nature of their connections and visiting costs.
+
+In discrete and discrete dynamic networks, where connections are discrete and predefined, the definition of an optimal path needs adjustment. To address this, a two-pass algorithm was developed inspired by Dijkstra's algorithm [13]. This algorithm is tailored to navigate the discrete nature of connections and efficiently find optimal paths.
+
+However, in networks with varying visiting costs like discrete dynamic and dynamic networks, the Markov independence principle no longer holds true for optimal solutions. This deviation from traditional shortest path algorithms necessitates novel approaches. 
+
+The two-pass algorithm initially designed for discrete networks has been adapted to handle the complexities of discrete dynamic networks. This adaptation enables efficient pathfinding while accounting for varying costs associated with visiting vertices.
+
 
 
 ###  GRAPH THEORY

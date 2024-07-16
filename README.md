@@ -17,6 +17,11 @@ Yet, when the objective shifted to providing precise travel information, a much 
 
 However, the current availability of relatively inexpensive microcomputers with sufficient capabilities, coupled with the growing importance of customer-oriented applications, has facilitated the development of comprehensive travel information systems and path finder. These advancements have made it feasible to create systems that cater to the specific travel needs of individuals with detailed and accurate information.
 
+The traditional graph representation of road network systems has been found inadequate for accurate representation. To address this, concepts of discrete networks and discrete dynamic networks have been developed. 
+In a discrete network, movement between vertices is limited to finite, discrete, predefined possibilities. This contrasts with representing connections through functions that specify varying travel and wait times (as described in [Co, 1966]). Instead, the very connections themselves are discrete. In a discrete dynamic network, visiting a vertex incurs a cost, which could be zero but might depend on the path's past and future route through the vertex. This adds a temporal and spatial dimension to the network's structure.
+
+Additionally, dynamic networks were introduced, which do not impose discrete connections but still assign a cost to visiting a vertex. These models accommodate more flexible and nuanced representations of real-world transportation systems.
+
 
 
 ###  GRAPH THEORY

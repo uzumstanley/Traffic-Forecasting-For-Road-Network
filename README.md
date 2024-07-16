@@ -111,7 +111,7 @@ Congestion increases travel costs and time, impacting quality of life and produc
 [10] F. Le Clercq, "A public transportation assignment method," Traffic Engineering and Control, June 1972.
 [11] G. Gallo and S. Pallottino, "Shortest path methods in transport networks," in Transportation Planning Models, Amsterdam, Elsevier Science Publishers, 1984, pp. 227-256.
 [12] K. L. Cooke and E. Halsey, "The shortest route through a network with time-dependent internodal transit times," Journal of Mathematical Analysis and Applications, vol. 14,        pp. 493-498, 1966.
-
+[13] E. W. Dijkstra, "A note on two problems in connection with graphs," Numerische Mathematik, vol. 1, pp. 269-271, 1959.
 
 
 

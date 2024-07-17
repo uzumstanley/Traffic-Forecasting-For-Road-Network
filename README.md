@@ -3,6 +3,28 @@
 The coming of the intelligent transport system has pointed out the critical necessity of accurate traffic forecasting. With advancements in machine learning technology, the objectives of this project include advanced machine learning for effectively predicting traffic jams, the shortest or fastest route by using the historical data of the road with respect to given time, that can significantly increase the efficiency of road network management. The project is also motivated by increased congestion and growing pressure on the demand for real-time traffic management solutions. Therefore, Traffic prediction is a critical ingredient in the modern urban planning field and traffic management. These factors further extend the problems for traffic management in a more significant way in many cities worldwide. A good traffic forecasting system may lessen these burdens, as it provides valuable information about traffic control, route planning, and congestion management. This is the reason behind this application, a System that give the shortest route to users destination and serves as path finder within University of Roehampton London Campus, it will help anyone within the campus to easily locate where they want to go.
 
 
+### PROBLEM STATEMENT
+
+### What is the problem?​
+Traffic congestion in London leads to significant time and economic losses.​
+ Navigating the University of Roehampton campus is challenging for newcomers.
+ 
+### Who is affected?
+London drivers and commuters.
+Students and visitors at the University of Roehampton.
+
+### Where/When does it occur?
+In London during peak travel times.
+Throughout the year at the University of Roehampton, particularly during the start of semesters.
+
+### Why is it important?
+Congestion increases travel costs and time, impacting quality of life and productivity.
+ Efficient campus navigation enhances the experience for students, newly employed staff members 
+    and visitors.
+ 
+
+
+
 Searching for the shortest route in a road network system is a fundamental area of research in both Operations Research and Artificial Intelligence (AI). This is particularly relevant for traffic forecasting, where accurately predicting traffic patterns and congestion is crucial. Despite ingenious representations of traffic forecasting problems, some level of search is still required to find optimal solutions.
 
 Historically, search problems were a major focus for AI researchers, as highlighted in early works such as [1]. However, the emphasis on search has diminished over time due to two main reasons. First, the development of fast and sometimes optimal algorithms for many specific areas has reduced the need for extensive searches. When optimal algorithms were not found, it was either because the area was unexplored or because such algorithms were inherently slow. Second, general search techniques, like those implemented in expert systems shells, have been considered adequately effective, reducing the necessity for customized search solutions.
@@ -73,25 +95,6 @@ Shortest path (A, C, E, D, F) between vertices A and F in the weighted directed 
 
 
 
-### PROBLEM STATEMENT
-
-### What is the problem?​
-Traffic congestion in London leads to significant time and economic losses.​
- Navigating the University of Roehampton campus is challenging for newcomers.
- 
-### Who is affected?
-London drivers and commuters.
-Students and visitors at the University of Roehampton.
-
-### Where/When does it occur?
-In London during peak travel times.
-Throughout the year at the University of Roehampton, particularly during the start of semesters.
-
-### Why is it important?
-Congestion increases travel costs and time, impacting quality of life and productivity.
- Efficient campus navigation enhances the experience for students, newly employed staff members 
-    and visitors.
- 
 
 
 

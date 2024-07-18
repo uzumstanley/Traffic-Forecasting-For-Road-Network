@@ -96,7 +96,7 @@ Shortest path (A, C, E, D, F) between vertices A and F in the weighted directed 
 
 
 
-2.1. A Weighted Undirected Graph
+### 2.1. A Weighted Undirected Graph
 
 
 A graph G = (V, E) consists of:
@@ -108,18 +108,18 @@ Each edge e connects a pair of vertices {u,v}, where u and v may be the same or 
 
 In a finite graph, both V and E are finite sets. In an undirected graph, the order of the vertices in an edge does not matter.
 
-Paths
+### Paths
 
 A path is a sequence of edges  such that:
 1. Each pair of consecutive edges  and  share a common endpoint, for 0 ≤ i <n.
 2. If  is not a self loop, it shares one endpoint with  and another endpoint with  (except for the first edge  and the last edge .
 
-Weighted Graphs
+### Weighted Graphs
 
 In a weighted graph, each edge e is assigned a length l(e) . The length of a path P= is the sum of the lengths of its edges:
 
 
-Additional Definitions
+### Additional Definitions
 
 - A path is simple if no vertex appears more than once.
 - A graph is connected if, for every pair of vertices u and v in V, there exists a path that starts at u and ends at v.

@@ -124,7 +124,49 @@ In a weighted graph, each edge e is assigned a length l(e) . The length of a pat
 - A path is simple if no vertex appears more than once.
 - A graph is connected if, for every pair of vertices u and v in V, there exists a path that starts at u and ends at v.
 - A circuit is a path where the start and end vertices are the same.
+- A connected graph which has no circuits is called a tree. 
+For an example of a weighted graph, consider Figure 2.1, which includes:
 
+- The set of vertices: {A,B,C,D,E,F}
+- The set of edges: {}
+
+In this graph:
+- Edges  and  are parallel.
+- Edge  is a self loop.
+
+The length of the simple path  is  2 + 9 + 6 = 17 .
+
+The path  forms a simple circuit.
+
+Additionally, the graph depicted in Figure 2.2 is a tree.
+
+
+Fig. 2.1. A weighted non-directed graph 
+
+
+Fig. 2.2. A tree 
+
+
+### 2.2. A Weighted Directed Graph
+
+In a directed graph, the endpoints of an edge have a specific order. The first endpoint is called the start vertex and the second endpoint is called the end vertex. An edge is considered directed from its start vertex to its end vertex. 
+
+- Parallel edges: Edges with the same start and end vertices.
+- Antiparallel edges: If u  v and  is directed from u to v while  is directed from v to u, then  and  are antiparallel.
+
+A directed path is a sequence of edges ,,...., such that the end vertex of  is the start vertex of  for 0 ≤ i < n. The length of a directed path and a simple directed path are defined similarly to those in an undirected case.
+
+A directed graph (V, E) is called strongly connected if for every pair of vertices u and v in V, there exists a directed path from u to v and a directed path from v to u. A weighted, directed, strongly connected graph is known as a network.
+
+
+ ### 2.3. Representing a Road Network by a Graph
+
+A (physical) road network can be represented using a weighted, non-directed, finite graph. 
+
+- Vertices V: Represent the road structures.
+- Edges E: Represent the connecting roads.
+
+An edge e connects two vertices u and v if and only if there is a road connecting the road strucrures represented by u and v.
 
 
    

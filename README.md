@@ -178,6 +178,7 @@ To illustrate this, consider a graph representing a small part of the London Roa
 Fig. 2.3. 
 
 ![image](https://github.com/user-attachments/assets/7b26071f-beb5-49a7-991d-22d4f99c77b5)
+
 Fig. 2.4.
 
 

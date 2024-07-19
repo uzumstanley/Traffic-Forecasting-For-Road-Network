@@ -185,6 +185,7 @@ Fig. 2.4.
 ### Representing a London Road Network by a Graph
 
 ### London Road Network
+
 The vertices of the graph represent different road structures in the London Road Network. The edges represent the connecting roads, and the lengths of these edges are the distances used for tariff calculations.
 
 For instance, consider the path:

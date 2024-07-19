@@ -173,7 +173,8 @@ The length of an edge e, denoted l(e), is defined as the distance (in kilometers
 To illustrate this, consider a graph representing a small part of the London Road network, which has been simplified and modified for clarity; see Figure 2.3. This example demonstrates how the distances between road structures can be represented as edge lengths in a graph, and how the total distance of a path can be calculated by summing the lengths of the edges that comprise it.
   
 
-![image](https://github.com/user-attachments/assets/c0acc639-c2d7-4ded-bf84-d47511287c43)
+![image](https://github.com/user-attachments/assets/ff530096-c988-4b5d-84e0-59cb1a999c86)
+
 Fig. 2.3. 
 
 ![image](https://github.com/user-attachments/assets/7b26071f-beb5-49a7-991d-22d4f99c77b5)

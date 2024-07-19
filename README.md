@@ -182,6 +182,25 @@ Fig. 2.3.
 Fig. 2.4.
 
 
+### Representing a London Road Network by a Graph
+
+London Road Network
+The vertices of the graph represent different road structures in the London Road Network. The edges represent the connecting roads, and the lengths of these edges are the distances used for tariff calculations.
+
+For instance, consider the path:
+- Western Avenue > Stonecot Hill > Watford Way > Colchester Road > Western Avenue
+
+The total length of this path is 78 km.
+
+Example Representation in a Graph
+
+A network of road services can be represented by a weighted directed graph. Here, the road structures are represented by the vertices of the graph. An edge e directed from a start vertex u to an end vertex v represents a traveler moving from the starting point represented by u (e.g., Road A) to the endpoint represented by v (e.g., Road B). The length of an edge is the time it takes to travel from Road A to Road B.
+
+
+
+
+
+
 
 
 

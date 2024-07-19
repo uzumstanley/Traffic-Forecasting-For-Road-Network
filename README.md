@@ -201,6 +201,16 @@ A network of road services can be represented by a weighted directed graph. Here
 
 Consider three road structures: Watford Way, Colchester Road, and Western Avenue, with the following travel scenarios:
 
+-Two cars traveling from Watford Way to Colchester Road:
+  * Represented by edges  and 
+  
+- One car traveling from Colchester Road to Colchester Road:
+  * Represented by edge 
+
+In this example:
+- The vertices are the road structures (Watford Way, Colchester Road, and Western Avenue).
+- The directed edges (e.g. , ,, ) represent the travel paths between these road structures.
+- The weight of each edge is the travel time between the corresponding roads.
 
 
 

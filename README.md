@@ -219,6 +219,8 @@ In this example:
 
 
 
+
+
 ### REFERENCES
 [1] N. J. Nilsson, Problem-Solving Methods in Artificial Intelligence. New York: McGraw-Hill, 1971.
 [2] M. Pollack and W. Wiebenson, "Solution of the shortest route problem: a review," Operations Research, vol. 8, pp. 224-230, 1960.
@@ -235,7 +237,7 @@ In this example:
 [12] K. L. Cooke and E. Halsey, "The shortest route through a network with time-dependent internodal transit times," Journal of Mathematical Analysis and Applications, vol. 14,        pp. 493-498, 1966.
 [13] E. W. Dijkstra, "A note on two problems in connection with graphs," Numerische Mathematik, vol. 1, pp. 269-271, 1959.
 
-
+[14] F. Le Clercq, "A public transportation assignment method," Traffic Engineering and Control, vol. 13, pp. 632-635, June 1972.
 
 
 

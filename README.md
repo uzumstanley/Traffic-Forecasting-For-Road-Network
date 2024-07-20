@@ -220,7 +220,14 @@ In this example:
 
 ### Network Representation
 The graph representing the London road network is illustrated in Figure 2.4. Here, the vertices correspond to different road structures, and the edges represent the connecting roads with travel times as their weights.
-  
+
+### Path Example
+Consider the path:
+- Watford Way > Colchester Road > Western Avenue
+
+This path involves traveling:
+- From Watford Way  to Colchester Road via edge  (10 minutes)
+- From Colchester Road to Western Avenue via edge  (15 minutes)
 
 
 

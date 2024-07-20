@@ -229,8 +229,9 @@ This path involves traveling:
 - From Watford Way  to Colchester Road via edge  (10 minutes)
 - From Colchester Road to Western Avenue via edge  (15 minutes)
 
+Thus, the total time spent in the cars is 10 + 15 = 25 minutes.
 
-
+However, this does not represent the actual trip duration. The trip took 35 minutes because of a 10-minute traffic wait at Colchester Road.
 
 
 

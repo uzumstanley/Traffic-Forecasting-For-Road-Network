@@ -290,8 +290,12 @@ In a road network, the start and end values of a path correspond to the departur
 8:30 - 7:55 = 35 minutes
 representing the actual travel time. If the path consists of edges   and , the length becomes: 8:30 - 7:40 = 50  minutes
 
+A connection along the path is defined as a pair of edges { , }, such that the end vertex of  is the start vertex of . In a road network, a connection corresponds to a pair of connecting road structure, possibly involving a route change. The cost of a connection along the path P, denoted as COST, is defined as:
+COST(, ) = start}() - end() for  0 ≤ k < n.
 
-
+In the context of a road network system, the COST of a connection represents the waiting time of the within the road. The following conditions apply:
+(1). The end vertex of  is the start vertex of , for 0 ≤ k < n.
+(2). end() ≤ start(), for 0 ≤ k < n.
 
 
 

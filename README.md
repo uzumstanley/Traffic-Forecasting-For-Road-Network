@@ -218,6 +218,8 @@ In this example:
 7:55	8:05	8:15	Colchester Road 
 		8:30	Western Avenue
 
+### Network Representation
+The graph representing the London road network is illustrated in Figure 2.4. Here, the vertices correspond to different road structures, and the edges represent the connecting roads with travel times as their weights.
   
 
 

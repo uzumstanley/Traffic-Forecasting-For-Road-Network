@@ -280,6 +280,17 @@ In representing a road network, each car departing from a road is depicted by on
 For instance, in the example provided, if start   is 8:15 and end  is 8:30, then the length  is 15 minutes. This example is illustrated in Figure 2.7.
 
 
+### Path Length and Connection Cost in a Discrete Network
+
+A path P is represented as a sequence of edges ,,...., . The length of a path P, denoted as l(P), is defined as:
+
+
+
+
+
+
+
+
 
 
 

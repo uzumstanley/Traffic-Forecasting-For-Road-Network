@@ -257,6 +257,8 @@ Consider the example illustrated in Figure 2.5. How long should the edge be that
 
 This issue can be resolved by adding one vertex for each arriving car and one vertex for each departing car. A vertex representing an arriving car at a road is connected to a vertex representing a departing car from that road by a waiting edge, provided there is sufficient connection time. The length of the waiting edge corresponds to the specific waiting time.
 
+In this refined model, as shown in Figure 2.6, each arriving car has its own vertex, and each departing car has its own vertex, with edges representing the waiting times between them. This method ensures that the traffic waiting times are accurately reflected based on the actual arrival and departure schedules.
+
 
 
 

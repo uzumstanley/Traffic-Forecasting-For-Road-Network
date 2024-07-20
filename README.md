@@ -263,6 +263,10 @@ In this refined model, as shown in Figure 2.6, each arriving car has its own ver
 ### Fig.2.5.
 
 
+![image](https://github.com/user-attachments/assets/119c660e-5ab3-41e5-87ae-d835ced9ad55)
+### Fig.2.6.
+
+
 
 
 

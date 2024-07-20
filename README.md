@@ -213,6 +213,13 @@ In this example:
 - The weight of each edge is the travel time between the corresponding roads.
 
 
+120	140	150	Road
+7:40	7:55		Watford Way
+7:55	8:05	8:15	Colchester Road 
+		8:30	Western Avenue
+
+  
+
 
 
 

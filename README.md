@@ -233,6 +233,9 @@ Thus, the total time spent in the cars is 10 + 15 = 25 minutes.
 
 However, this does not represent the actual trip duration. The trip took 35 minutes because of a 10-minute traffic wait at Colchester Road.
 
+### Explanation of Waiting Time
+The waiting time occurs due to the discrete nature of road connections. Unlike an escalator, where movement is continuous, traffic involves specific, discrete times for getting on and off roads. Consequently, time is lost in the gaps between arrival and departure of connections.
+
 
 
 

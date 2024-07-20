@@ -249,8 +249,9 @@ To accurately reflect the total duration of a trip, including waiting times, it 
 
 However, even when the waiting time is conservatively estimated, this method only provides an approximate trip duration. It does not offer precise departure or arrival times. This approach may be suitable for stochastic applications, like capacity planning or passenger flow models, where an average travel time is adequate. Nonetheless, it falls short when specific travel information is necessary.
 
+### Alternative Representation of Waiting Time
 
-
+An alternative method to represent waiting time is to create two vertices for each station: one for arriving cars and one for departing cars. These vertices are connected by an edge that represents the waiting time. However, determining the length of this waiting edge in advance is challenging because the waiting time depends on the route taken.
 
 
 

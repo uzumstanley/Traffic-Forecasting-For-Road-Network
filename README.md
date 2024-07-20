@@ -253,6 +253,10 @@ However, even when the waiting time is conservatively estimated, this method onl
 
 An alternative method to represent waiting time is to create two vertices for each station: one for arriving cars and one for departing cars. These vertices are connected by an edge that represents the waiting time. However, determining the length of this waiting edge in advance is challenging because the waiting time depends on the route taken.
 
+Consider the example illustrated in Figure 2.5. How long should the edge be that connects the inflow of Colchester Road to the outflow of Colchester Road? If the arrival was by car 120, the waiting time would be 20 minutes; if by car 140, it would be 10 minutes.
+
+This issue can be resolved by adding one vertex for each arriving car and one vertex for each departing car. A vertex representing an arriving car at a road is connected to a vertex representing a departing car from that road by a waiting edge, provided there is sufficient connection time. The length of the waiting edge corresponds to the specific waiting time.
+
 
 
 

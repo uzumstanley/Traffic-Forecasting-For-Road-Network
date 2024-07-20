@@ -236,6 +236,24 @@ However, this does not represent the actual trip duration. The trip took 35 minu
 ### Explanation of Waiting Time
 The waiting time occurs due to the discrete nature of road connections. Unlike an escalator, where movement is continuous, traffic involves specific, discrete times for getting on and off roads. Consequently, time is lost in the gaps between arrival and departure of connections.
 
+- Total trip time: 35 minutes
+  - Time spent in cars: 25 minutes
+  - Waiting time at Colchester Road: 10 minutes
+
+This example highlights how travel times in a network can be affected by waiting times due to traffic and connection schedules.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

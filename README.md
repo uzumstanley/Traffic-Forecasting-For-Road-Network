@@ -297,8 +297,9 @@ In the context of a road network system, the COST of a connection represents the
 (1). The end vertex of  is the start vertex of , for 0 ≤ k < n.
 (2). end() ≤ start(), for 0 ≤ k < n.
 
-
-
+The start and end of a path P are defined as:
+start(P) = start}() 
+end(P) = end()
 
 
 

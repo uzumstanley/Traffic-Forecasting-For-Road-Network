@@ -284,8 +284,11 @@ For instance, in the example provided, if start   is 8:15 and end  is 8:30, then
 
 A path P is represented as a sequence of edges ,,...., . The length of a path P, denoted as l(P), is defined as:
 
+ l(P) = end(P) - start(P)
 
-
+In a road network, the start and end values of a path correspond to the departure and arrival times, respectively, and the length of the path represents the duration of the trip. For example, considering the path illustrated in Figure 2.7, if the path consists of edges   and   \), the length of the path is:
+8:30 - 7:55 = 35 minutes
+representing the actual travel time. If the path consists of edges   and , the length becomes: 8:30 - 7:40 = 50  minutes
 
 
 

@@ -247,6 +247,8 @@ This example highlights how travel times in a network can be affected by waiting
 
 To accurately reflect the total duration of a trip, including waiting times, it is suggested that the waiting time be incorporated into the path length. Some researchers recommend adding an average waiting time to the travel time, as noted in sources such as [14]. For instance, if traffic moves on and off every 10 minutes, an average waiting time of 5 minutes would be included in the travel time.
 
+However, even when the waiting time is conservatively estimated, this method only provides an approximate trip duration. It does not offer precise departure or arrival times. This approach may be suitable for stochastic applications, like capacity planning or passenger flow models, where an average travel time is adequate. Nonetheless, it falls short when specific travel information is necessary.
+
 
 
 

@@ -266,7 +266,11 @@ In this refined model, as shown in Figure 2.6, each arriving car has its own ver
 ![image](https://github.com/user-attachments/assets/119c660e-5ab3-41e5-87ae-d835ced9ad55)
 ### Fig.2.6.
 
+### 2.5. A Discrete Network
 
+To efficiently and accurately represent discrete connections, a discrete network is proposed. In such a network, the discreteness of connections is reflected in the properties of the edges. A discrete network consists of a finite, weighted, directed graph G = (V, E). Additionally, each edge e in E is associated with two values:
+1. start(e): The start value.
+2. end(e): The end value, where start(e) < end(e).
 
 
 

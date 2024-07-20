@@ -243,7 +243,9 @@ The waiting time occurs due to the discrete nature of road connections. Unlike a
 This example highlights how travel times in a network can be affected by waiting times due to traffic and connection schedules.
 
 
+### 2.4. Representing Waiting Time
 
+To accurately reflect the total duration of a trip, including waiting times, it is suggested that the waiting time be incorporated into the path length. Some researchers recommend adding an average waiting time to the travel time, as noted in sources such as [14]. For instance, if traffic moves on and off every 10 minutes, an average waiting time of 5 minutes would be included in the travel time.
 
 
 

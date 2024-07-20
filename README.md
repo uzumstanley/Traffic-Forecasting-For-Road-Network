@@ -259,6 +259,11 @@ This issue can be resolved by adding one vertex for each arriving car and one ve
 
 In this refined model, as shown in Figure 2.6, each arriving car has its own vertex, and each departing car has its own vertex, with edges representing the waiting times between them. This method ensures that the traffic waiting times are accurately reflected based on the actual arrival and departure schedules.
 
+![image](https://github.com/user-attachments/assets/61412072-7dce-4850-a29f-cb985000fbf6)
+### Fig.2.5.
+
+
+
 
 
 

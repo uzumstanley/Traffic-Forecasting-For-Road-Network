@@ -272,7 +272,12 @@ To efficiently and accurately represent discrete connections, a discrete network
 1. start(e): The start value.
 2. end(e): The end value, where start(e) < end(e).
 
+The length of an edge e is defined as:
+l(e) = end(e) - start(e)
 
+In representing a road network, each car departing from a road is depicted by one edge. The start and end values of the edge correspond to the departure and arrival times of the car. The length of the edge represents the car's travel time.
+
+For instance, in the example provided, if start   is 8:15 and end  is 8:30, then the length  is 15 minutes. This example is illustrated in Figure 2.7.
 
 
 

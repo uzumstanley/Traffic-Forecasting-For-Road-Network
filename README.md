@@ -59,7 +59,7 @@ However, in networks with varying visiting costs like discrete dynamic and dynam
 The two-pass algorithm initially designed for discrete networks has been adapted to handle the complexities of discrete dynamic networks. This adaptation enables efficient pathfinding while accounting for varying costs associated with visiting vertices.
 
 
-The algorithm designed for searching discrete dynamic networks has been implemented in an operational system called SMART CITY. This system is actively used to navigate the entire road network of London and to find routes within the University of Roehampton campus. Various techniques such as digitization, symmetries, abstraction spaces, and distance estimates are employed to enhance the performance of SMART CITY.
+The algorithm designed for searching discrete dynamic networks has been implemented in an operational system called London Navigator. This system is actively used to navigate the entire road network of London and to find routes within the University of Roehampton campus. Various techniques such as digitization, symmetries, abstraction spaces, and distance estimates are employed to enhance the performance of SMART CITY.
 
 While the concept of the optimal or quickest solution is well-defined, determining the best answer to a user's query is often less straightforward. Users frequently provide overly specific queries that are not always clearly defined. Many factors influence what constitutes the 'best' answer, and users may not articulate all of these factors explicitly. In road travel, for example, the number of available routes is crucial, but additional considerations may also play a role in determining the optimal answer, which can vary case by case.
 

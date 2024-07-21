@@ -14,7 +14,6 @@ London drivers and commuters.
 Students and visitors at the University of Roehampton.
 
 
-
 ### Where/When does it occur?
 In London during peak travel times.
 Throughout the year at the University of Roehampton, particularly during the start of semesters.

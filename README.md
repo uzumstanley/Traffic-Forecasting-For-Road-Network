@@ -37,6 +37,7 @@ In Operations Research, during the sixties and early seventies, significant atte
 
 Humans have increasingly sought efficient road network systems to find optimal routes from starting points to destinations, beginning at or after a specified start time \( T_{start} \). The goal is to arrive at the destination as early as possible, adhering to the planned departure time or later, and allowing for departure as late as possible given the earliest arrival time. Experience indicates that many people struggle with planning journeys using traditional road maps. Longer journeys, spanning multiple segments, require consulting multiple schedules simultaneously. Once a route is identified, typically minimal effort is invested in refining the solution or exploring alternatives for different departure times.
 
+
 Previous efforts to find the fastest routes in public transportation networks were primarily aimed at planning purposes, as referenced in works such as [10] and [11]. However, these attempts did not specifically provide detailed information about travel options within existing transportation networks. Systems used for capacity planning or passenger flow models typically relied on approximate (mean) travel times, which sufficed for those purposes. 
 
 

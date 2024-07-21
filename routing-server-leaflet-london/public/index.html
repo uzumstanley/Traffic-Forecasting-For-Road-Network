@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+          integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+          crossorigin=""/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/leaflet-sidepanel.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon/icons8-route-80.png" type="image/x-icon">
+    <title>Routing</title>
+
+</head>
+
+<body>
+<header class="header">
+    <h1><span class="text-success">Rou</span>ting</h1>
+</header>
+
+
+<div class="spinner-border text-primary" role="status" id="spinner" style="display: none;">
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-success" id="exampleModalLongTitle">Welcome</h3>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group">
+
+
+                    <li class="modal-icon list-group-item">
+                        <p>
+
+                            <svg class="m-2" style="color: rgb(137, 144, 132);width: 1.3rem"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 384 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path d="M64 48c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16h80V400c0-26.5 21.5-48 48-48s48 21.5 48 48v64h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64zM0 64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm88 40c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V104zM232 88h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V104c0-8.8 7.2-16 16-16zM88 232c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H104c-8.8 0-16-7.2-16-16V232zm144-16h48c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H232c-8.8 0-16-7.2-16-16V232c0-8.8 7.2-16 16-16z"
+                                      fill="#899084"></path>
+                            </svg>
+                            Click in side panel to find building
+                        </p>
+                    </li>
+                    <li class="modal-icon list-group-item">
+                        <p>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                 class="m-2 bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path
+                                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                            Click in side panel to find places
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="gotit" class="btn btn-secondary" data-dismiss="modal">Got it</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ShowMap ID -->
+<div id="map">
+    <!-- Side Panel left -->
+    <div id="mySidepanelLeft" class="sidepanel" aria-label="side panel" aria-hidden="false">
+        <div class="sidepanel-inner-wrapper">
+            <nav class="sidepanel-tabs-wrapper" aria-label="sidepanel tab navigation">
+                <ul class="sidepanel-tabs">
+
+                    <li class="sidepanel-tab">
+                        <a href="#" class="sidebar-tab-link" role="tab" data-tab-link="tab-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                 class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path
+                                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidepanel-content-wrapper">
+                <div class="sidepanel-content">
+                    <div class="sidepanel-tab-content" data-tab-content="tab-1">
+                        <form class="form-group" id="form">
+
+                            <div class="container mt-3 mb-5">
+
+                                <h4 class="mb-5">Where do you want to go?</h4>
+                                <h5>Location</h5>
+                                <div class="dropdown">
+                                    <input type="text" name="from" class="form-control" id="searchInputFrom"
+                                           placeholder="Search..."
+                                           aria-expanded="false" autocomplete="off">
+                                    <ul class="dropdown-menu" id="dropdownListFrom" aria-labelledby="searchInputFrom">
+                                        <!-- Filtered items will be appended here -->
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="container mt-5">
+                                <h5>Destination</h5>
+                                <div class="dropdown">
+                                    <input type="text" name="to" class="form-control" id="searchInputTo"
+                                           placeholder="Search..."
+                                           aria-expanded="false" autocomplete="off">
+                                    <ul class="dropdown-menu" id="dropdownListTo" aria-labelledby="searchInputTo">
+                                        <!-- Filtered items will be appended here -->
+                                    </ul>
+                                </div>
+
+                                <button class="mt-3 btn btn-success" type="submit">Find Path</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidepanel-toggle-container">
+            <button class="sidepanel-toggle-button" type="button" aria-label="toggle side panel"></button>
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wicket/1.3.6/wicket.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wicket/1.3.3/wicket-leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.3.0/dist/leaflet-ant-path.min.js"></script>
+<script src="dist/leaflet-sidepanel.min.js"></script>
+<script src="js/index.js" type="module"></script>
+<script src="js/utils.js" type="module"></script>
+
+
+<script>
+    $(document).ready(function () {
+        // Show the modal as soon as the page loads
+        $('#exampleModalCenter').modal('show');
+    });
+
+    $(document).ready(function () {
+        // Assuming you have a button with ID 'closeBtn' to close the modal
+        $('#gotit').click(function () {
+            $('#exampleModalCenter').modal('hide');
+        });
+
+    });
+
+</script>
+</body>
+
+</html>

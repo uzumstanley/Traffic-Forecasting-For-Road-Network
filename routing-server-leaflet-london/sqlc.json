@@ -1,0 +1,33 @@
+{
+  "version": "2",
+  "cloud": {
+    "project": "01HHF7RP08VV5JKJT73QB12Y91"
+  },
+  "sql": [
+    {
+      "engine": "postgresql",
+      "queries": "db/query",
+      "schema": "db/migrations",
+      "gen": {
+        "go": {
+          "package": "db",
+          "out": "db/sqlc",
+          "sql_package": "pgx/v5",
+          "overrides": [
+            {
+              "db_type": "geometry",
+              "go_type": "github.com/twpayne/go-geom.Point"
+            },
+            {
+              "db_type": "geometry",
+              "go_type": "github.com/twpayne/go-geom.Point",
+              "nullable": true
+            }
+          ],
+          "emit_json_tags": true,
+          "emit_empty_slices": true
+        }
+      }
+    }
+  ]
+}

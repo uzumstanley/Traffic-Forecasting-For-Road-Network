@@ -1,0 +1,15 @@
+services:
+  db:
+    image: "${IMAGE}"
+    environment:
+      POSTGRES_USER: "${PGUSER}"
+      POSTGRES_PASSWORD: "${PGPASSWORD}"
+      POSTGRES_DB: "${PGDATABASE}"
+    ports:
+      - "${PG_PORT_MAPPING}"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+

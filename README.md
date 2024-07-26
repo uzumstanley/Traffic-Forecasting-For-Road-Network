@@ -9,7 +9,7 @@ The coming of the intelligent transport system has pointed out the critical nece
 
 
 
-###  1.1	Problem Description, Context and Motivation
+###  1.1. Problem Description, Context and Motivation
 
 ### What is the problem?​
 Traffic congestion in London leads to significant time and economic losses.​
@@ -29,7 +29,7 @@ Congestion increases travel costs and time, impacting quality of life and produc
  Efficient campus navigation enhances the experience for students, newly employed staff members 
     and visitors.
  
-### Methodology - HOW
+### 1.2	Objectives
 
 
 

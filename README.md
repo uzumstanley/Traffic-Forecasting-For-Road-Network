@@ -26,6 +26,10 @@ The primary aim of this research is to develop an optimized navigation system fo
 ### 1.To map the London route network as a graph incorporating both drivable roads and footpaths:
  This objective involves creating a comprehensive graph representation of the London road network, including both drivable roads and pedestrian pathways. This detailed mapping will provide the foundation for the navigation system, enabling accurate and efficient route planning.
 ### 2. To develop a system to effectively implement a path-finding algorithm to improve navigation efficiency:
+This objective focuses on the implementation of Dijkstra's algorithm to find the shortest and most efficient routes within the mapped network. The system will dynamically adjust routes based on real-time traffic data to minimize travel time and reduce congestion.
+
+
+
 
 ### Where/When does it occur?
 In London during peak travel times.

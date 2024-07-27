@@ -21,9 +21,8 @@ Traffic congestion in London is particularly problematic during peak travel time
 
 Solving traffic congestion in London is crucial for reducing travel costs and time, thereby enhancing the quality of life and productivity for commuters. Effective traffic management can lead to substantial economic savings and a more efficient transportation system. Similarly, improving campus navigation at the University of Roehampton is important for providing a positive experience for students, newly employed staff members, and visitors, facilitating easier access to campus facilities and reducing the time spent navigating the campus.
  
-### Who is affected?
-London drivers and commuters.
-Students and visitors at the University of Roehampton.
+### 1.2 Objectives 
+The primary aim of this research is to develop an optimized navigation system for the London road network and the University of Roehampton campus using a path-finding algorithm. The specific objectives are as follows:
 
 
 ### Where/When does it occur?

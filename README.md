@@ -24,6 +24,7 @@ Solving traffic congestion in London is crucial for reducing travel costs and ti
 ### 1.2 Objectives 
 The primary aim of this research is to develop an optimized navigation system for the London road network and the University of Roehampton campus using a path-finding algorithm. The specific objectives are as follows:
 ### 1.To map the London route network as a graph incorporating both drivable roads and footpaths:
+ This objective involves creating a comprehensive graph representation of the London road network, including both drivable roads and pedestrian pathways. This detailed mapping will provide the foundation for the navigation system, enabling accurate and efficient route planning.
 
 
 ### Where/When does it occur?

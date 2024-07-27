@@ -13,6 +13,8 @@ This project aims to develop a system that provides optimal routes for travelers
 
 ###  1.1. Problem Description, Context and Motivation
 
+Traffic congestion in London leads to significant time and economic losses. According to the INRIX 2022 Global Traffic Scorecard, the average driver in London lost £1,377 in time due to congestion, highlighting the severe impact on productivity and economic efficiency. Furthermore, navigating the University of Roehampton campus presents challenges for newcomers, including students, visitors, and newly employed staff members, who may struggle to find optimal routes within the campus.
+
 ### What is the problem?​
 Traffic congestion in London leads to significant time and economic losses.​
  Navigating the University of Roehampton campus is challenging for newcomers.

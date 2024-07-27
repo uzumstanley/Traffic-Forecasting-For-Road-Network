@@ -28,6 +28,7 @@ The primary aim of this research is to develop an optimized navigation system fo
 ### 2. To develop a system to effectively implement a path-finding algorithm to improve navigation efficiency:
 This objective focuses on the implementation of Dijkstra's algorithm to find the shortest and most efficient routes within the mapped network. The system will dynamically adjust routes based on real-time traffic data to minimize travel time and reduce congestion.
 ### 3. To design a user-friendly web interface for the navigation system:
+This objective aims to create an intuitive and accessible web interface for users. The interface will allow travelers to easily input their starting points and destinations, view optimal routes, and receive real-time updates on fastest  paths.
 
 
 

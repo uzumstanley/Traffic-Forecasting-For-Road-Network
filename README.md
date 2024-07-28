@@ -88,8 +88,7 @@ The following technologies and processes will be used:
 -  Purpose: To store and manage spatial and attribute data efficiently.
 
 ### 5. Backend Development:
-
-
+- Purpose: To handle data processing, pathfinding algorithms, and database interactions.
 
 
 

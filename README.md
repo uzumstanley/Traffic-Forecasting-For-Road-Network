@@ -75,14 +75,8 @@ The following technologies and processes will be used:
 -  Purpose: To digitize and clean the road network data and model it as a graph.
 
 ### 2. Graph Densification:
-
-
-### Why is it important?
-Congestion increases travel costs and time, impacting quality of life and productivity.
- Efficient campus navigation enhances the experience for students, newly employed staff members 
-    and visitors.
- 
-### 1.2	Objectives
+- Tool: Python 
+- Purpose: To add intermediate nodes and refine edges for improved path-finding accuracy.
 
 
 

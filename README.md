@@ -78,6 +78,7 @@ The following technologies and processes will be used:
 - Tool: Python 
 - Purpose: To add intermediate nodes and refine edges for improved path-finding accuracy.
 
+### 3. Path-Finding Algorithm Implementation:
 
 
 

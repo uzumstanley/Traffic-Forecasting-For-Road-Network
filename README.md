@@ -48,7 +48,8 @@ The design phase involves several key steps:
 ### 4. Path-Finding Algorithm Implementation:
  - Dijkstra’s algorithm will be implemented in Python, Go, and JavaScript. It will calculate the shortest paths on the graph and be tested on smaller sections of the graph network before scaling to the entire area.
 
-### 5. Validation   
+### 5. Validation:
+ - The computed paths will be validated by comparing them with real-world navigation scenarios. User tests will be conducted where participants follow the suggested routes and provide feedback to enhance the system's reliability
 
 
 

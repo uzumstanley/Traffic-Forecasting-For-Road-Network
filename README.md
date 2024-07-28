@@ -63,6 +63,7 @@ Testing and evaluation will involve the following steps:
 ### 3. Comparison with Real-World Scenarios:
 - The computed paths will be compared with actual navigation scenarios to validate the accuracy and efficiency of the system.
 
+### Project Management
 
 
 ### Why is it important?

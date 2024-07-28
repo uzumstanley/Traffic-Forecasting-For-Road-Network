@@ -61,7 +61,7 @@ Testing and evaluation will involve the following steps:
 - Participants will use the system to navigate both London roads and the University of Roehampton campus. Their feedback will be used to make necessary adjustments.
 
 ### 3. Comparison with Real-World Scenarios:
-
+- The computed paths will be compared with actual navigation scenarios to validate the accuracy and efficiency of the system.
 
 
 

@@ -43,7 +43,7 @@ The design phase involves several key steps:
  - The graph network will be digitized and cleaned using QGIS. It will be modeled with Python to represent the London road network as a graph with nodes and edges, ready for further processing.
 
 ### 3. Graph Densification:
-
+ - The graph will be densified by adding intermediate nodes and refining edges. This will improve the accuracy and efficiency of the path-finding algorithm, resulting in a detailed and accurate representation of the road network.
 
 
 

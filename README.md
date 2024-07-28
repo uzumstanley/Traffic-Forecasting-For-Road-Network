@@ -37,6 +37,7 @@ This section details the methodology that will be employed to achieve the object
 The design phase involves several key steps:
 ### 1. Data Collection:
 - Obtain London road data from Transport for London (TFL). This data will provide a comprehensive overview of the road network in London, including both drivable roads and pedestrian paths.
+- Digitize campus routes using Google Earth and QGIS. These tools will be used to create an accurate map of the University of Roehampton campus, including all pathways and routes.
 
 ### Where/When does it occur?
 In London during peak travel times.

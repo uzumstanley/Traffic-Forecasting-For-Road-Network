@@ -46,7 +46,7 @@ The design phase involves several key steps:
  - The graph will be densified by adding intermediate nodes and refining edges. This will improve the accuracy and efficiency of the path-finding algorithm, resulting in a detailed and accurate representation of the road network.
 
 ### 4. Path-Finding Algorithm Implementation:
-
+ - Dijkstra’s algorithm will be implemented in Python, Go, and JavaScript. It will calculate the shortest paths on the graph and be tested on smaller sections of the graph network before scaling to the entire area.
 
 
 

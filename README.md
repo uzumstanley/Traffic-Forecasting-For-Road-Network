@@ -74,7 +74,7 @@ The following technologies and processes will be used:
 -  Language: Python 
 -  Purpose: To digitize and clean the road network data and model it as a graph.
 
-
+### 2. Graph Densification:
 
 
 ### Why is it important?

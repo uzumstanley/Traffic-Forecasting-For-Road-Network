@@ -104,7 +104,8 @@ The following technologies and processes will be used:
 -  Widely used in interactive maps with extensive documentation and support.
 ### (ii). PostgreSQL with PostGIS:
 - Provides robust and scalable data management for spatial data.
-
+### (iii). React:
+- Offers a responsive and interactive web interface for users.
 
 
 

@@ -40,9 +40,19 @@ The design phase involves several key steps:
 - Digitize campus routes using Google Earth and QGIS. These tools will be used to create an accurate map of the University of Roehampton campus, including all pathways and routes.
 
 ### 2. Graph Modeling:
-### Where/When does it occur?
-In London during peak travel times.
-Throughout the year at the University of Roehampton, particularly during the start of semesters.
+ - The graph network will be digitized and cleaned using QGIS. It will be modeled with Python to represent the London road network as a graph with nodes and edges, ready for further processing.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Why is it important?
 Congestion increases travel costs and time, impacting quality of life and productivity.

@@ -69,6 +69,7 @@ Project management will employ agile methodologies, the use of a Kanban board to
 ### Technologies and Processes
 The following technologies and processes will be used:
 
+### 1. Data Collection and Graph Modeling:
 
 
 

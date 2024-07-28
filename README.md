@@ -94,7 +94,7 @@ The following technologies and processes will be used:
 - Tool: React
 -  Purpose: To create a user-friendly web interface for displaying optimal routes on a digital map of London.
 
-
+### 7. Integration of Custom Tile Map Service:
 
 
 

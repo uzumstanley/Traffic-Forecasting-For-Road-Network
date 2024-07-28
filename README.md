@@ -51,6 +51,8 @@ The design phase involves several key steps:
 ### 5. Validation:
  - The computed paths will be validated by comparing them with real-world navigation scenarios. User tests will be conducted where participants follow the suggested routes and provide feedback to enhance the system's reliability
 
+### Testing and Evaluation
+
 
 
 

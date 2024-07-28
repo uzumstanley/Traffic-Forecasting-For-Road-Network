@@ -79,6 +79,24 @@ The following technologies and processes will be used:
 - Purpose: To add intermediate nodes and refine edges for improved path-finding accuracy.
 
 ### 3. Path-Finding Algorithm Implementation:
+- Languages: Python, Go, JavaScript 
+- Algorithm: Dijkstra’s algorithm
+-  Purpose: To calculate the shortest paths on the graph.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -70,6 +70,9 @@ Project management will employ agile methodologies, the use of a Kanban board to
 The following technologies and processes will be used:
 
 ### 1. Data Collection and Graph Modeling:
+- Tools: QGIS, Google Earth, Google Maps
+-  Language: Python 
+-  Purpose: To digitize and clean the road network data and model it as a graph.
 
 
 

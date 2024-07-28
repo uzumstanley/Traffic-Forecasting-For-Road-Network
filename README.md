@@ -66,6 +66,7 @@ Testing and evaluation will involve the following steps:
 ### Project Management
 Project management will employ agile methodologies, the use of a Kanban board to track progress. The project management details can be viewed at GitHubProject(https://github.com/users/uzumstanley/projects/1/views/1).
 
+### Technologies and Processes
 
 
 

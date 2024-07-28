@@ -31,6 +31,7 @@ This objective focuses on the implementation of Dijkstra's algorithm to find the
 This objective aims to create an intuitive and accessible web interface for users. The interface will allow travelers to easily input their starting points and destinations, view optimal routes, and receive real-time updates on fastest  paths.
 
 ### 1.3 Methodology
+This section details the methodology that will be employed to achieve the objectives of this research project. It includes the design, testing and evaluation, project management, and the technologies and processes used.
 
 
 ### Where/When does it occur?

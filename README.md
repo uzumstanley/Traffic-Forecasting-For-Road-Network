@@ -33,6 +33,9 @@ This objective aims to create an intuitive and accessible web interface for user
 ### 1.3 Methodology
 This section details the methodology that will be employed to achieve the objectives of this research project. It includes the design, testing and evaluation, project management, and the technologies and processes used.
 
+### Design 
+The design phase involves several key steps:
+
 
 ### Where/When does it occur?
 In London during peak travel times.

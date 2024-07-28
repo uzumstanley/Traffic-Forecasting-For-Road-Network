@@ -35,6 +35,7 @@ This section details the methodology that will be employed to achieve the object
 
 ### Design 
 The design phase involves several key steps:
+### 1. Data Collection:
 
 
 ### Where/When does it occur?

@@ -97,6 +97,8 @@ The following technologies and processes will be used:
 ### 7. Integration of Custom Tile Map Service:
 - Purpose: To ensure seamless and efficient map rendering using high- resolution drone imagery.
 
+  
+### Why These Methods?
 
 
 

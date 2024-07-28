@@ -102,7 +102,8 @@ The following technologies and processes will be used:
 ### (i). Dijkstra's Algorithm: 
 - Proven efficiency in finding the shortest path.
 -  Widely used in interactive maps with extensive documentation and support.
-
+### (ii). PostgreSQL with PostGIS:
+- Provides robust and scalable data management for spatial data.
 
 
 

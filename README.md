@@ -84,7 +84,8 @@ The following technologies and processes will be used:
 -  Purpose: To calculate the shortest paths on the graph.
 
 ### 4. Database Design:
-
+- Tool: PostgreSQL with PostGIS 
+-  Purpose: To store and manage spatial and attribute data efficiently.
 
 
 

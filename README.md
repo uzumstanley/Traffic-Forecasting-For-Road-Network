@@ -58,7 +58,7 @@ Testing and evaluation will involve the following steps:
 - Initial tests will be conducted on smaller sections of the graph network to ensure the path-finding algorithm works correctly.
 
 ### 2. User Testing:
-
+- Participants will use the system to navigate both London roads and the University of Roehampton campus. Their feedback will be used to make necessary adjustments.
 
 
 

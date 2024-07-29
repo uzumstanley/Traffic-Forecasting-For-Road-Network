@@ -119,7 +119,7 @@ Developing a navigation system for public use involves several legal considerati
 - Ensuring that all software components, including the path-finding algorithm and web interface, respect intellectual property rights. Open-source libraries and tools will be used in compliance with their respective licenses.
 
 ### 3. Compliance with Local Traffic Laws:
-
+ - The system will provide route suggestions in line with local traffic regulations, avoiding restricted or prohibited areas.
 
 
 

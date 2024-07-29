@@ -123,7 +123,7 @@ Developing a navigation system for public use involves several legal considerati
 
 ### Social Considerations
 The project aims to positively impact society by reducing traffic congestion and improving navigation efficiency. Key social considerations include:
-
+### 1. Accessibility:
 
 
 

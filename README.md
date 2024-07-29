@@ -144,6 +144,22 @@ Professionalism in the development and deployment of the navigation system inclu
 
 ### 2. Ethical Guidelines:
   - Adhering to the ethical guidelines set forth by professional bodies such as the Association for Computing Machinery (ACM) and the Institute of Electrical and Electronics Engineers (IEEE). This includes maintaining honesty, integrity, and transparency throughout the project.
+### Managing Ethical Considerations
+To manage ethical considerations effectively, the following actions will be taken:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

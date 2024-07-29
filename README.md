@@ -149,7 +149,7 @@ To manage ethical considerations effectively, the following actions will be take
 ### 1. Ethics Review:
    - Conducting an ethics review to identify potential ethical issues and develop strategies to address them. This includes obtaining approval from relevant ethics committees if required.
 ### 2. User Consent:
-
+   - Implementing a transparent user consent process, ensuring that users are fully informed about the data being collected and how it will be used.
 
 
 

@@ -116,7 +116,7 @@ Developing a navigation system for public use involves several legal considerati
  -  Explicit consent will be obtained from users before collecting any personal data.
    
 ### 2. Intellectual Property:
-
+- Ensuring that all software components, including the path-finding algorithm and web interface, respect intellectual property rights. Open-source libraries and tools will be used in compliance with their respective licenses.
 
 
 

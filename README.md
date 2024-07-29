@@ -140,7 +140,7 @@ Ethical considerations in this project primarily involve the responsible use of 
 ### Professional Considerations
 Professionalism in the development and deployment of the navigation system includes adhering to industry standards and ethical guidelines:
 ### 1. Adherence to Industry Standards:
-
+   - Following best practices in software development, including thorough testing, code reviews, and documentation. Ensuring the system is reliable, secure, and user-friendly.
 
 
 

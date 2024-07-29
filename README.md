@@ -153,6 +153,7 @@ To manage ethical considerations effectively, the following actions will be take
 ### 4. Data Security Measures:
    - Implementing robust data security measures, including encryption, access controls, and regular security audits to protect user data.
 
+By addressing these legal, social, ethical, and professional considerations, the project aims to develop a navigation system that is not only effective and efficient but also responsible and respectful of users' rights and societal norms.
 
 
 

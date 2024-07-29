@@ -133,8 +133,7 @@ The project aims to positively impact society by reducing traffic congestion and
 Ethical considerations in this project primarily involve the responsible use of data and ensuring the system's benefits are equitably distributed:
 
 ### 1. Responsible Data Usage:
-
-
+   - Ensuring that data collected from users is used solely for the purpose of improving navigation efficiency and not for any unauthorized or unethical purposes.
 
 
 

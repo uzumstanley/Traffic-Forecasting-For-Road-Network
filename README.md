@@ -148,7 +148,7 @@ Professionalism in the development and deployment of the navigation system inclu
 To manage ethical considerations effectively, the following actions will be taken:
 ### 1. Ethics Review:
    - Conducting an ethics review to identify potential ethical issues and develop strategies to address them. This includes obtaining approval from relevant ethics committees if required.
-
+### 2. User Consent:
 
 
 

@@ -132,6 +132,7 @@ The project aims to positively impact society by reducing traffic congestion and
 ### Ethical Considerations
 Ethical considerations in this project primarily involve the responsible use of data and ensuring the system's benefits are equitably distributed:
 
+### 1. Responsible Data Usage:
 
 
 

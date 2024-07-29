@@ -108,8 +108,8 @@ The following technologies and processes will be used:
 - Offers a responsive and interactive web interface for users.
 
 ### 1.4Legal, Social, Ethical and Professional Considerations 
-
-
+### Legal Considerations
+Developing a navigation system for public use involves several legal considerations, including data privacy, data security, and compliance with local regulations:
 
 
 

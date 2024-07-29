@@ -129,6 +129,8 @@ The project aims to positively impact society by reducing traffic congestion and
 ### 2. Public Awareness and Acceptance:
    - Educating users about the benefits of the system and encouraging its adoption through public awareness campaigns. Engaging with local communities to gather feedback and improve the system based on user experiences.
 
+### Ethical Considerations
+Ethical considerations in this project primarily involve the responsible use of data and ensuring the system's benefits are equitably distributed:
 
 
 

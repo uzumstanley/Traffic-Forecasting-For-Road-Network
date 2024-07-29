@@ -151,7 +151,7 @@ To manage ethical considerations effectively, the following actions will be take
 ### 2. User Consent:
    - Implementing a transparent user consent process, ensuring that users are fully informed about the data being collected and how it will be used.
 ### 4. Data Security Measures:
-
+   - Implementing robust data security measures, including encryption, access controls, and regular security audits to protect user data.
 
 
 

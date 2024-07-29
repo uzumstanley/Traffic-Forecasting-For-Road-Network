@@ -107,6 +107,19 @@ The following technologies and processes will be used:
 ### (iii). React:
 - Offers a responsive and interactive web interface for users.
 
+### 1.4Legal, Social, Ethical and Professional Considerations 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

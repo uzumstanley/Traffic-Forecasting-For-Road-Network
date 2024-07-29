@@ -121,7 +121,8 @@ Developing a navigation system for public use involves several legal considerati
 ### 3. Compliance with Local Traffic Laws:
  - The system will provide route suggestions in line with local traffic regulations, avoiding restricted or prohibited areas.
 
-
+### Social Considerations
+The project aims to positively impact society by reducing traffic congestion and improving navigation efficiency. Key social considerations include:
 
 
 

@@ -143,7 +143,7 @@ Professionalism in the development and deployment of the navigation system inclu
    - Following best practices in software development, including thorough testing, code reviews, and documentation. Ensuring the system is reliable, secure, and user-friendly.
 
 ### 2. Ethical Guidelines:
-
+  - Adhering to the ethical guidelines set forth by professional bodies such as the Association for Computing Machinery (ACM) and the Institute of Electrical and Electronics Engineers (IEEE). This includes maintaining honesty, integrity, and transparency throughout the project.
 
 
 

@@ -112,9 +112,7 @@ The following technologies and processes will be used:
 Developing a navigation system for public use involves several legal considerations, including data privacy, data security, and compliance with local regulations:
 
 ### 1. Data Privacy and Protection:
-
-
-
+ - The system will handle sensitive data related to users' locations and travel patterns. Compliance with data protection regulations such as the General Data Protection Regulation (GDPR) is crucial. User data will be anonymized and encrypted to ensure privacy and security.
 
 
 

@@ -135,7 +135,7 @@ Ethical considerations in this project primarily involve the responsible use of 
 ### 1. Responsible Data Usage:
    - Ensuring that data collected from users is used solely for the purpose of improving navigation efficiency and not for any unauthorized or unethical purposes.
 ### 2. Equity and Fairness:
-
+   - Ensuring that the system benefits all users equally and does not favor certain groups over others. Special attention will be given to providing accurate and efficient routes for all areas, including less affluent neighborhoods.
 
 
 

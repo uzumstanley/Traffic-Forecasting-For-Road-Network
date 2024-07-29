@@ -137,6 +137,8 @@ Ethical considerations in this project primarily involve the responsible use of 
 ### 2. Equity and Fairness:
    - Ensuring that the system benefits all users equally and does not favor certain groups over others. Special attention will be given to providing accurate and efficient routes for all areas, including less affluent neighborhoods.
 
+### Professional Considerations
+Professionalism in the development and deployment of the navigation system includes adhering to industry standards and ethical guidelines:
 
 
 

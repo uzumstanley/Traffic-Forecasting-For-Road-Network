@@ -126,6 +126,7 @@ The project aims to positively impact society by reducing traffic congestion and
 ### 1. Accessibility:
   - Designing the system to be inclusive and accessible to all users, including those with disabilities. This includes ensuring the web interface is compliant with accessibility standards (e.g., WCAG 2.1).
 
+### 2. Public Awareness and Acceptance:
 
 
 

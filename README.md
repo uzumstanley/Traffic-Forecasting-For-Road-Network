@@ -164,6 +164,7 @@ GIS technology integrates diverse datasets swiftly, enabling users to analyze an
 
 The motivation for this project arises from the need to provide accurate and effective information for road network analysis and traffic management. Road network analysis produces reliable information that aids decision-makers in selecting optimal routes through mathematical calculations and dynamic programming [3], [4]. Determining the optimal route is a common research topic in transportation literature, focusing on minimizing travel time and cost [5].
 
+Effective traffic conditions management and accurate information provision are critical for monitoring road networks and navigation systems. This study aims to implement and evaluate a GIS-based methodology for determining optimal routes in road networks, utilizing key information based on the cost of distance. An integrated approach to location and routing, supported by a robust application, offers a significant competitive advantage. The project's goal is to develop a decision tool for monitoring road networks and facilitating efficient navigation within the University of Roehampton campus.
 
 
 

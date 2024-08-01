@@ -160,6 +160,7 @@ By addressing these legal, social, ethical, and professional considerations, the
 
 Advancements in information technology have proven effective in addressing real-world problems, such as monitoring road traffic levels and determining the shortest travel routes. Maps are crucial for presenting and analyzing spatial distribution data across various sectors, including business, resources, and service needs. According to Woodbury, 85% of all computerized databases worldwide contain a location component like street addresses or zip codes. Geographic Information System (GIS) technology has emerged as one of the most significant research tools and rapidly growing high-tech solutions for data monitoring and management [1].
 
+GIS technology integrates diverse datasets swiftly, enabling users to analyze and visualize information efficiently. In service management, GIS is used extensively to display large volumes of data relevant to local and regional planning activities [1]. Location and routing techniques in GIS support decision-making processes by presenting solutions clearly and allowing for process exploration, thus enabling informed judgments. Web-based architectures, such as the World Wide Web (WWW), facilitate deploying databases via the Internet, providing access to central data storage, remote data collection, and interaction between GIS and optimization software [2].
 
 
 

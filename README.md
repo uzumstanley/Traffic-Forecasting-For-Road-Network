@@ -168,6 +168,7 @@ Effective traffic conditions management and accurate information provision are c
 
 GIS technology in transport management has proven effective in analyzing road networks and optimizing routes. Chen [1] highlights the flexibility and power of GIS in various fields, including retail tourism and teaching curriculum. Calvoa et al. [2] demonstrate GIS's potential in solving daily carpooling problems. Boulaxis and Papadopoulos [3] highlight the use of dynamic programming techniques with GIS for optimal feeder routing in distribution systems. Monteiro et al. [4] illustrate the application of GIS spatial analysis in optimizing electric line routing, showcasing GIS's versatility in various optimization scenarios. Finally, Ahn and Rakha [5] explore the effects of route choice decisions on vehicle energy consumption and emissions, providing insights into the environmental benefits of optimal routing decisions.
 
+Effective traffic management through advanced traffic forecasting and GIS technologies is essential for reducing economic losses and improving urban mobility. This project aims to leverage real-time data and Dijkstra algorithm to provide a comprehensive solution for traffic management in London and navigation within the University of Roehampton campus, significantly reducing travel time, fuel costs, and overall congestion, contributing to a more efficient and sustainable urban environment.
 
 
 

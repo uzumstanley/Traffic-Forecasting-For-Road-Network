@@ -170,6 +170,8 @@ GIS technology in transport management has proven effective in analyzing road ne
 
 Effective traffic management through advanced traffic forecasting and GIS technologies is essential for reducing economic losses and improving urban mobility. This project aims to leverage real-time data and Dijkstra algorithm to provide a comprehensive solution for traffic management in London and navigation within the University of Roehampton campus, significantly reducing travel time, fuel costs, and overall congestion, contributing to a more efficient and sustainable urban environment.
 
+### 1.6 Structure of Report 
+
 
 
 

@@ -162,6 +162,7 @@ Advancements in information technology have proven effective in addressing real-
 
 GIS technology integrates diverse datasets swiftly, enabling users to analyze and visualize information efficiently. In service management, GIS is used extensively to display large volumes of data relevant to local and regional planning activities [1]. Location and routing techniques in GIS support decision-making processes by presenting solutions clearly and allowing for process exploration, thus enabling informed judgments. Web-based architectures, such as the World Wide Web (WWW), facilitate deploying databases via the Internet, providing access to central data storage, remote data collection, and interaction between GIS and optimization software [2].
 
+The motivation for this project arises from the need to provide accurate and effective information for road network analysis and traffic management. Road network analysis produces reliable information that aids decision-makers in selecting optimal routes through mathematical calculations and dynamic programming [3], [4]. Determining the optimal route is a common research topic in transportation literature, focusing on minimizing travel time and cost [5].
 
 
 

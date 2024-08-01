@@ -158,6 +158,29 @@ By addressing these legal, social, ethical, and professional considerations, the
 
 ### 1.5 Background
 
+Advancements in information technology have proven effective in addressing real-world problems, such as monitoring road traffic levels and determining the shortest travel routes. Maps are crucial for presenting and analyzing spatial distribution data across various sectors, including business, resources, and service needs. According to Woodbury, 85% of all computerized databases worldwide contain a location component like street addresses or zip codes. Geographic Information System (GIS) technology has emerged as one of the most significant research tools and rapidly growing high-tech solutions for data monitoring and management [1].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

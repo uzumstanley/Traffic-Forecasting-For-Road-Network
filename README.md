@@ -166,7 +166,7 @@ The motivation for this project arises from the need to provide accurate and eff
 
 Effective traffic conditions management and accurate information provision are critical for monitoring road networks and navigation systems. This study aims to implement and evaluate a GIS-based methodology for determining optimal routes in road networks, utilizing key information based on the cost of distance. An integrated approach to location and routing, supported by a robust application, offers a significant competitive advantage. The project's goal is to develop a decision tool for monitoring road networks and facilitating efficient navigation within the University of Roehampton campus.
 
-
+GIS technology in transport management has proven effective in analyzing road networks and optimizing routes. Chen [1] highlights the flexibility and power of GIS in various fields, including retail tourism and teaching curriculum. Calvoa et al. [2] demonstrate GIS's potential in solving daily carpooling problems. Boulaxis and Papadopoulos [3] highlight the use of dynamic programming techniques with GIS for optimal feeder routing in distribution systems. Monteiro et al. [4] illustrate the application of GIS spatial analysis in optimizing electric line routing, showcasing GIS's versatility in various optimization scenarios. Finally, Ahn and Rakha [5] explore the effects of route choice decisions on vehicle energy consumption and emissions, providing insights into the environmental benefits of optimal routing decisions.
 
 
 

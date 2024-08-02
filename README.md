@@ -226,7 +226,7 @@ A directed path is a sequence of edges ,,...., such that the end vertex of  is t
 A directed graph (V, E) is called strongly connected if for every pair of vertices u and v in V, there exists a directed path from u to v and a directed path from v to u. A weighted, directed, strongly connected graph is known as a network.
 
 ### Geographic Information System (GIS)
-
+Geographic Information Systems (GIS) have been advancing since the 1970s. GIS serves as a crucial tool for location mapping, visualizing dynamic conditions, and aiding decision-making processes [6-8]. Geospatial data are instrumental in monitoring responses to accidents. During the response phase, GIS enables the analysis of real-time data, facilitating visualization and automation for more efficient decision-making. Research in GIS has concentrated on areas like shortest path analysis [9, 10]. This highlights the significant potential of GIS applications to reduce response times if geospatial information is utilized at the initial stages of accident response.
 
 
 

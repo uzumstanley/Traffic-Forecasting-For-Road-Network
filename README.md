@@ -237,7 +237,8 @@ Web GIS initially offered only client access through browsers, incorporating bas
 ### System components 
 The web framework is based on a three-tier architecture comprising the client layer, middleware layer, and database layer (Figure 2.3). These components work together to provide a unified interface for data consultation, requests, and decision-making for users. The database is accessed through the Internet, allowing users to interact with the data without needing to know the database's physical location. Users can consult, add, and modify the data as needed. The following sections will discuss these components in more detail.
 
-
+The application utilizes PostgreSQL as its database management system, enhanced with the geospatial extension PostGIS. In addition to supporting relational queries, PostGIS enables users to perform spatial queries.
+Typically, there are two basic approaches to deploying this GIS application on the Internet: server-side and client-side [14]. Web-based GIS users can utilize a web browser to navigate maps and perform basic spatial analysis. In other words, for a web-based GIS application, users enter specifications such as location or search requests on a web page to set up their environment for mapping or searching. The user's requests are sent to clients via HTML forms. These forms are processed by the Apache Web Server, which then passes the request to the GIS server. The GIS server subsequently queries the database.
 
 
 

@@ -243,7 +243,7 @@ Typically, there are two basic approaches to deploying this GIS application on t
 The described system is designed to support two types of users: system administrators and teleoperators. The system administrator is responsible for updating the databases (user accounts and layers) and ensuring all functionalities are operational. Teleoperators handle the entry, editing, and deletion of all other data through a distributed Graphical User Interface (GUI). The system uses two types of data: geographic and semantic. The geographic database includes the region's road network map, monitoring stations, and all necessary geographic information to generate an output GIS on the web. The semantic data, maintained in a relational database, contains information about routing and traffic flows.
 
 ![image](https://github.com/user-attachments/assets/1fd3e963-b7ac-4be3-977a-32cec2c32925)
-
+### Figure 2.3
 
 
 

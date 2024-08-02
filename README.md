@@ -245,7 +245,7 @@ The described system is designed to support two types of users: system administr
 ![image](https://github.com/user-attachments/assets/1fd3e963-b7ac-4be3-977a-32cec2c32925)
 ### Figure 2.3
 
-
+### 2.3. Technology Review
 
 
 

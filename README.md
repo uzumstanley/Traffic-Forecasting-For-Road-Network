@@ -206,7 +206,9 @@ For an example of a weighted graph, consider Figure 2.1, which includes:
 In this graph:
 - Edges  and  are parallel.
 - Edge  is a self loop.
-
+The length of the simple path  is  2 + 9 + 6 = 17 .
+The path  forms a simple circuit.
+Additionally, the graph depicted in Figure 2.2 is a tree.
 
 
 

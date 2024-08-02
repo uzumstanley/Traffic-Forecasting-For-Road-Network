@@ -192,6 +192,7 @@ A path is a sequence of edges  such that:
 1. Each pair of consecutive edges  and  share a common endpoint, for 0 ≤ i <n.
 2. If  is not a self loop, it shares one endpoint with  and another endpoint with  (except for the first edge  and the last edge .
 
+### Weighted Graphs
 
 
 

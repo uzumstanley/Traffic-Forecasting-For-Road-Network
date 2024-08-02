@@ -188,7 +188,9 @@ Each edge e connects a pair of vertices {u,v}, where u and v may be the same or 
 In a finite graph, both V and E are finite sets. In an undirected graph, the order of the vertices in an edge does not matter.
 
 ### Paths
-
+A path is a sequence of edges  such that:
+1. Each pair of consecutive edges  and  share a common endpoint, for 0 ≤ i <n.
+2. If  is not a self loop, it shares one endpoint with  and another endpoint with  (except for the first edge  and the last edge .
 
 
 

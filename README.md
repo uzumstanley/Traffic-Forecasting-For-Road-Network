@@ -214,7 +214,7 @@ Additionally, the graph depicted in Figure 2.2 is a tree.
 Fig. 2.1. A weighted non-directed graph 
 
 ![image](https://github.com/user-attachments/assets/a34e2200-b76a-409b-b5a6-dbf010facd59)
-
+Fig. 2.2. A tree 
 
 
 

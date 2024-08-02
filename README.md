@@ -210,6 +210,7 @@ The length of the simple path  is  2 + 9 + 6 = 17 .
 The path  forms a simple circuit.
 Additionally, the graph depicted in Figure 2.2 is a tree.
 
+![image](https://github.com/user-attachments/assets/48aed67d-838f-4d44-b293-eb9535bf0444)
 
 
 

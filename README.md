@@ -193,6 +193,7 @@ A path is a sequence of edges  such that:
 2. If  is not a self loop, it shares one endpoint with  and another endpoint with  (except for the first edge  and the last edge .
 
 ### Weighted Graphs
+In a weighted graph, each edge e is assigned a length l(e) . The length of a path P= is the sum of the lengths of its edges:
 
 
 

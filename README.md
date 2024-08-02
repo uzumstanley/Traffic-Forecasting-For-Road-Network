@@ -223,6 +223,7 @@ In a directed graph, the endpoints of an edge have a specific order. The first e
 - Antiparallel edges: If u  v and  is directed from u to v while  is directed from v to u, then  and  are antiparallel.
 A directed path is a sequence of edges ,,...., such that the end vertex of  is the start vertex of  for 0 ≤ i < n. The length of a directed path and a simple directed path are defined similarly to those in an undirected case.
 
+A directed graph (V, E) is called strongly connected if for every pair of vertices u and v in V, there exists a directed path from u to v and a directed path from v to u. A weighted, directed, strongly connected graph is known as a network.
 
 
 

@@ -187,6 +187,7 @@ A graph G = (V, E) consists of:
 Each edge e connects a pair of vertices {u,v}, where u and v may be the same or different. The vertices u and v are called the endpoints of edge e. If u and v are the same, e is called a self loop. Edges connecting the same pair of vertices are called parallel.
 In a finite graph, both V and E are finite sets. In an undirected graph, the order of the vertices in an edge does not matter.
 
+### Paths
 
 
 

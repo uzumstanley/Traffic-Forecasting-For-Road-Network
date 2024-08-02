@@ -195,6 +195,48 @@ A path is a sequence of edges  such that:
 ### Weighted Graphs
 In a weighted graph, each edge e is assigned a length l(e) . The length of a path P= is the sum of the lengths of its edges:
 
+### Additional Definitions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

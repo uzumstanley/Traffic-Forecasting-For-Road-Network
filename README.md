@@ -249,6 +249,36 @@ The described system is designed to support two types of users: system administr
 ### 2.3. Technology Review
 
 ### Dijkstra’s Algorithm and Its Relevance
+Dijkstra’s algorithm, introduced by Edsger W. Dijkstra in 1959, is a seminal method for finding the shortest paths in a graph[4, 5] . It has been extensively utilized across various domains such as transportation networks, computer science, and urban planning due to its efficiency and robustness. This algorithm calculates the shortest path between nodes in a graph with non-negative weights, making it particularly suitable for road networks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

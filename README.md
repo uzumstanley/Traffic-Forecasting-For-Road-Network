@@ -21,7 +21,6 @@ The primary individuals affected are London drivers and commuters facing daily d
 Solving London’s traffic congestion is crucial for reducing travel costs and time, enhancing quality of life and productivity for commuters. Effective traffic management can lead to substantial economic savings and a more efficient transportation system. Similarly, improving campus navigation at the University of Roehampton is important for providing a positive experience for students, staff, and visitors, facilitating easier access to campus facilities and reducing time spent navigating the campus.
 
 
-Solving traffic congestion in London is crucial for reducing travel costs and time, thereby enhancing the quality of life and productivity for commuters. Effective traffic management can lead to substantial economic savings and a more efficient transportation system. Similarly, improving campus navigation at the University of Roehampton is important for providing a positive experience for students, newly employed staff members, and visitors, facilitating easier access to campus facilities and reducing the time spent navigating the campus.
  
 ### 1.2 Objectives 
 The primary aim of this research is to develop an optimized navigation system for the London road network and the University of Roehampton campus using a path-finding algorithm. The specific objectives are as follows:

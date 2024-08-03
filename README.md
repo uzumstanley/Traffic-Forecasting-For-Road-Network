@@ -253,7 +253,7 @@ Dijkstra’s algorithm, introduced by Edsger W. Dijkstra in 1959, is a seminal m
 Several studies highlight the effectiveness of Dijkstra’s algorithm in optimizing routes. For instance, Botsis and Panagiotopoulos applied this algorithm to the campus of the International Hellenic University in Serres, Greece, determining the shortest routes between various locations and buildings[2]. Their findings confirmed the algorithm's efficiency in solving complex routing problems, providing a strong motivation for its use in traffic forecasting and road network navigation .
 
 ### Choosing Dijkstra’s Algorithm over Bellman-Ford
-
+The Bellman-Ford algorithm, developed by Richard Bellman and Lester Ford Jr., also calculates shortest paths in a graph and can handle graphs with negative edge weights . However, it operates with a higher time complexity (O(|E||V|)), making it less efficient compared to Dijkstra’s algorithm, which has a time complexity of O(|E| log |V|) . Given the extensive and complex road network of London and the University of Roehampton, the efficiency of Dijkstra’s algorithm renders it a more practical choice.
 
 
 

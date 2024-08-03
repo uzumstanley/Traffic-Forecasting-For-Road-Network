@@ -3,11 +3,10 @@
 
 
 
-### Chaper 1. INTRODUCTION
+### CHAPTER 1. INTRODUCTION
 
 
-Traffic congestion and navigation inefficiency are significant issues in metropolitan areas like London. Addressing these problems can save time and reduce economic losses. According to the INRIX 2022 Global Traffic Scorecard, it cost the average driver in London £1,377 due to lost time to congestion. Across the UK, drivers, on average, lost £707 in time. Additionally, the annual cost of fueling a car for the average commuter in London increased by more than £212, while nationally, Britons spent £122 more at the pump to commute. These numbers reflect the direct economic cost of traffic congestion and underscore the importance of effective traffic management and forecasting. By improving traffic management, cities can reduce such economic losses and enhance productivity.
-This project aims to develop a system that provides optimal routes for travelers within London and aids in effortless navigation within the University of Roehampton campus. The system leverages Dijkstra's algorithm to determine the shortest route from the traveler's starting point to their destination. By offering real-time, optimized routing solutions, the system addresses traffic congestion problems by directing travelers through shortest paths, thereby reducing travel time and enhancing overall efficiency.
+
 
 
 

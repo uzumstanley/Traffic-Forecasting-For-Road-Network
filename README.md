@@ -12,20 +12,9 @@ Analyzing road networks is crucial for generating accurate and effective informa
 By improving traffic management, cities can reduce economic losses and enhance productivity. This project aims to develop a system that provides optimal routes for travelers within London and aids in effortless navigation within the University of Roehampton campus. The system leverages Dijkstra's algorithm to determine the shortest route from the traveler’s starting point to their destination. By offering real-time, optimized routing solutions, the system addresses traffic congestion problems by directing travelers through the shortest paths, thereby reducing travel time and enhancing overall efficiency.
 
 
-
-
-
-
-
-
-
-
-
-
-
 ###  1.1. Problem Description, Context and Motivation
 
-Traffic congestion in London leads to significant time and economic losses. According to the INRIX 2022 Global Traffic Scorecard, the average driver in London lost £1,377 in time due to congestion, highlighting the severe impact on productivity and economic efficiency. Furthermore, navigating the University of Roehampton campus presents challenges for newcomers, including students, visitors, and newly employed staff members, who may struggle to find optimal routes within the campus.
+Traffic congestion in London leads to significant time and economic losses. The INRIX 2022 Global Traffic Scorecard reports that the average London driver lost £1,377 in time due to congestion, severely impacting productivity and economic efficiency. Additionally, navigating the University of Roehampton campus presents challenges for newcomers, including students, visitors, and newly employed staff, who may struggle to find optimal routes.
 
 The primary individuals affected by this problem are London drivers and commuters who face daily delays and increased travel costs due to traffic congestion. Additionally, students and visitors at the University of Roehampton experience difficulties in campus navigation, particularly during peak times such as the start of semesters.
 

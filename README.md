@@ -19,7 +19,7 @@ Traffic congestion in London leads to significant time and economic losses. The 
 The primary individuals affected are London drivers and commuters facing daily delays and increased travel costs, as well as University of Roehampton students and visitors experiencing navigation difficulties, particularly during peak times such as the start of semesters. 
 
 
-Traffic congestion in London is particularly problematic during peak travel times, exacerbating delays and economic losses. At the University of Roehampton, the navigation challenges are persistent throughout the year but become especially pronounced at the beginning of academic semesters when a large influx of new students and visitors arrives.
+
 
 Solving traffic congestion in London is crucial for reducing travel costs and time, thereby enhancing the quality of life and productivity for commuters. Effective traffic management can lead to substantial economic savings and a more efficient transportation system. Similarly, improving campus navigation at the University of Roehampton is important for providing a positive experience for students, newly employed staff members, and visitors, facilitating easier access to campus facilities and reducing the time spent navigating the campus.
  

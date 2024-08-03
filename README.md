@@ -6,6 +6,17 @@
 ### CHAPTER 1. INTRODUCTION
 Traffic congestion and navigation inefficiency are pressing issues in metropolitan areas such as London. Addressing these challenges can save time and reduce economic losses significantly. According to the INRIX 2022 Global Traffic Scorecard, London is the most congested city globally, with drivers losing an average of 156 hours in traffic annually. In the UK, the average driver lost 80 hours to congestion, reflecting a 7-hour increase from 2021, though still 35 hours less than in 2019. The annual cost of congestion in London amounted to £1,377 per driver, with UK drivers losing an average of £707. Additionally, rising fuel costs added £212 for London commuters and £122 nationally [1].
 Globally, drivers in the top five congested cities were: London (156 hours), Chicago (155 hours), Paris (138 hours), Boston (134 hours), and New York (117 hours). Most UK cities, including London, have met or exceeded pre-COVID congestion levels, with Londoners experiencing a 5% increase over pre-pandemic delays. This surge in traffic congestion underscores the urgent need for effective traffic management to mitigate economic losses and improve the quality of life for commuters [1].
+A recent report from the leading Global Positioning System (GPS) company TomTom highlighted that traffic congestion results in significant losses in time and energy consumption, with commuters in major cities worldwide spending approximately 75% more time traveling than necessary [2]. The rapid increase in the number of vehicles and the high percentage of the global population living in urban areas are key factors contributing to this issue. Enhancing traffic congestion management and implementing optimal route-planning algorithms could benefit over 3 billion people by reducing energy consumption and aiding in mitigating global warming. One effective strategy to reduce urban traffic is optimizing traffic flow for more efficient routing. An improved vehicle routing system would lead to better utilization of all nearby road networks [3].
+
+
+
+
+
+
+
+
+
+
 
 
 

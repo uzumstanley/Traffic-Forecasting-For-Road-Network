@@ -255,7 +255,7 @@ Several studies highlight the effectiveness of Dijkstra’s algorithm in optimiz
 ### Choosing Dijkstra’s Algorithm over Bellman-Ford
 The Bellman-Ford algorithm, developed by Richard Bellman and Lester Ford Jr., also calculates shortest paths in a graph and can handle graphs with negative edge weights . However, it operates with a higher time complexity (O(|E||V|)), making it less efficient compared to Dijkstra’s algorithm, which has a time complexity of O(|E| log |V|) . Given the extensive and complex road network of London and the University of Roehampton, the efficiency of Dijkstra’s algorithm renders it a more practical choice.
 
-
+While the Bellman-Ford algorithm's ability to handle negative weights is advantageous in certain scenarios, this feature is unnecessary for navigating London’s road network, where negative edge weights do not exist. Thus, the additional complexity of Bellman-Ford is unwarranted for this application .
 
 
 

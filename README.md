@@ -258,7 +258,7 @@ The Bellman-Ford algorithm, developed by Richard Bellman and Lester Ford Jr., al
 While the Bellman-Ford algorithm's ability to handle negative weights is advantageous in certain scenarios, this feature is unnecessary for navigating London’s road network, where negative edge weights do not exist. Thus, the additional complexity of Bellman-Ford is unwarranted for this application .
 
 ### Practical Applications of Dijkstra’s Algorithm
-
+Dijkstra’s algorithm has been successfully employed in various practical scenarios, such as optimizing urban rail networks and facilitating building evacuations, demonstrating its versatility and reliability [2]. These applications underscore the algorithm's suitability for traffic forecasting in road networks, including the complex and dynamic environment of London’s road infrastructure.
 
 
 

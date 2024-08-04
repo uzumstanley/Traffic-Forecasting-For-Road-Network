@@ -276,7 +276,7 @@ The study builds on previous research, such as the work by Botsis and Panagiotop
 
 - Limitations of Existing Tools: Generic tools like Google Maps often fail in providing optimal routes for specific layouts and intricate networks [2, 5]. 
 
-
+Goal: To reduce traffic congestion and enhance campus navigation through an optimized, tailored navigation system.
 
 
 

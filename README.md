@@ -263,7 +263,7 @@ Dijkstra’s algorithm has been successfully employed in various practical scena
 ### Limitations of Existing Navigation Tools
 Current navigation tools, such as Google Maps, provide broad route planning services but often fall short in specific contexts, such as University of Roehampton campuses or intricate urban road networks[2, 5]. These tools may not always provide the most optimal routes or account for all the nuances of local road layouts . 
 
-
+This research aims to address these limitations by implementing a tailored approach using Dijkstra’s algorithm, specifically designed for the navigation needs of London’s road network and the University of Roehampton. By integrating on-site drone surveys for precise data collection and employing advanced software tools, the proposed system aims to deliver an efficient and user-friendly navigation solution.
 
 
 

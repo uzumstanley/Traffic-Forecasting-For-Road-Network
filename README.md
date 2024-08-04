@@ -274,6 +274,7 @@ The study builds on previous research, such as the work by Botsis and Panagiotop
 
 - Real-World Applications: Successfully used in optimizing campus routes (Botsis & Panagiotopoulos, 2020) and urban networks [2]. Highlights its suitability for detailed, constrained environments.
 
+- Limitations of Existing Tools: Generic tools like Google Maps often fail in providing optimal routes for specific layouts and intricate networks [2, 5]. 
 
 
 

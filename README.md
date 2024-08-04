@@ -272,7 +272,7 @@ The study builds on previous research, such as the work by Botsis and Panagiotop
 ### Findings:
 - Dijkstra’s Algorithm: Proven effective for finding shortest paths in graphs. Ideal for navigation in complex environments like university campuses and road networks [4, 5].
 
-
+- Real-World Applications: Successfully used in optimizing campus routes (Botsis & Panagiotopoulos, 2020) and urban networks [2]. Highlights its suitability for detailed, constrained environments.
 
 
 

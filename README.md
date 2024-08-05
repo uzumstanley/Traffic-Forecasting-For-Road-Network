@@ -190,8 +190,11 @@ Extensive research has developed effective global path planning algorithms, incl
 The optimal path planning algorithm explores all possible solutions to find the globally optimal path. Incremental graph algorithms can be integrated into optimal algorithms to enhance their efficiency. Conversely, heuristic path planning algorithms iteratively refine a subset of solutions, aiming for a feasible but potentially suboptimal outcome. Although these solutions are not guaranteed to be globally optimal, they often achieve comparable quality. Heuristic algorithms require a destination point to begin the process [11x].
 
 ### Routing Algorithms
-
-
+Numerous vehicle routing algorithms exist, including Bellman-Ford, Floyd Warshall, and the A* search algorithm [3X]. However, the Dijkstra Algorithm stands out as the most well-known and fastest labeling technique [13X]. Developed by Dutch computer scientist Edsger Wybe Dijkstra in 1959 [14X], it is a greedy algorithm that determines the shortest route between an origin node and a destination vertex [15X]. According to Suardinata et al., the Dijkstra algorithm finds the minimum length from vertex a to z in a weighted graph with positive weights, as negative nodes cannot be used [16X]. The key concepts include:
+- The length of a trajectory in a weighted graph is the sum of the weights, denoted by .
+- The shortest path from initial node  to end node  is the path with the minimum length, expressed as  if there are m different paths.
+The algorithm is briefly represented as , where V is a set of vertices and E is a set of edges [17X].
+Dijkstra initiated research in grid-map-based path planning by examining the shortest path between two nodes on a map [18x]. The Dijkstra Algorithm, a graph search method, efficiently determines the shortest paths between two points [19x]. This approach is particularly useful for solving the Vehicle Routing Problem. Road networks are modeled using graph theory, where intersections are represented as nodes connected by edges, with cost values assigned from departure to destination. Computer algorithms then efficiently find vehicle routes within this framework [4x].
 
 
 

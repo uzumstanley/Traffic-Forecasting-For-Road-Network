@@ -195,7 +195,9 @@ Numerous vehicle routing algorithms exist, including Bellman-Ford, Floyd Warshal
 - The shortest path from initial node  to end node  is the path with the minimum length, expressed as  if there are m different paths.
 The algorithm is briefly represented as , where V is a set of vertices and E is a set of edges [17X].
 Dijkstra initiated research in grid-map-based path planning by examining the shortest path between two nodes on a map [18x]. The Dijkstra Algorithm, a graph search method, efficiently determines the shortest paths between two points [19x]. This approach is particularly useful for solving the Vehicle Routing Problem. Road networks are modeled using graph theory, where intersections are represented as nodes connected by edges, with cost values assigned from departure to destination. Computer algorithms then efficiently find vehicle routes within this framework [4x].
-
+Dijkstra's method employs a priority queue to trace the highest-priority point. It assigns values to each point and maintains these values until the inspection point is reached, allowing comparison with newly determined route values [10x]. 
+The advantage of using the Dijkstra Algorithm is that it requires every edge's weight to be non-negative; otherwise, the path cannot be accurately followed, leading to incorrect results. The algorithm starts from the initial point, expanding outward in layers until the target node is found [20x]. 
+The Dijkstra algorithm is commonly used in real-time applications, such as geographic mapping, for optimal path planning, including considerations like traffic light durations. Additional research has integrated the time dimension into the algorithm [21x].
 
 
 

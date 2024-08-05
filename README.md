@@ -187,7 +187,7 @@ Extensive research has developed effective global path planning algorithms, incl
 ![image](https://github.com/user-attachments/assets/826623fd-ab1c-4a37-bd82-4b904ff9c917)
 ### Fig. 1. Shortest path graph example
 
-
+The optimal path planning algorithm explores all possible solutions to find the globally optimal path. Incremental graph algorithms can be integrated into optimal algorithms to enhance their efficiency. Conversely, heuristic path planning algorithms iteratively refine a subset of solutions, aiming for a feasible but potentially suboptimal outcome. Although these solutions are not guaranteed to be globally optimal, they often achieve comparable quality. Heuristic algorithms require a destination point to begin the process [11x].
 
 
 

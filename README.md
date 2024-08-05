@@ -177,7 +177,7 @@ The report is organized into five chapters, each focusing on a specific aspect o
 
 ### 2 Literature - Technology Review
 
-Traffic forecasting for road networks is a critical component of urban planning, transportation management, and intelligent transport systems. Accurate traffic forecasts facilitate optimized route planning, reduced travel times, and enhanced safety. This literature review explores the foundational algorithms and recent advancements relevant to traffic forecasting, emphasizing the application of Dijkstra’s algorithm within the context of road network navigation and optimization.
+Traffic congestion remains a significant issue, especially in urban areas [6x]. The primary cause is road congestion or exceeding road capacity, leading to a supply shortage and increased accidents and traffic jams [7x]. Inefficient vehicle routing and the waiting time at intersections, compared to travel time on road segments, also contribute to this problem [6x]. These challenges are often referred to as Vehicle Routing Problems (VRP), a heavily researched topic in operations research due to the rising costs of emissions in recent years [8x]
 
 ### 2.1. Literature Review
 

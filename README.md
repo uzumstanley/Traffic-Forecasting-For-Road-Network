@@ -199,7 +199,7 @@ Dijkstra's method employs a priority queue to trace the highest-priority point. 
 The advantage of using the Dijkstra Algorithm is that it requires every edge's weight to be non-negative; otherwise, the path cannot be accurately followed, leading to incorrect results. The algorithm starts from the initial point, expanding outward in layers until the target node is found [20x]. 
 The Dijkstra algorithm is commonly used in real-time applications, such as geographic mapping, for optimal path planning, including considerations like traffic light durations. Additional research has integrated the time dimension into the algorithm [21x].
 
-
+### 2.2. Technology Review
 
 
 

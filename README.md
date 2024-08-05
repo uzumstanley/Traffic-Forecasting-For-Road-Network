@@ -182,6 +182,35 @@ Traffic congestion remains a significant issue, especially in urban areas [6x]. 
 ### 2.1. Literature Review
 
 ### Path Planning
+![image](https://github.com/user-attachments/assets/826623fd-ab1c-4a37-bd82-4b904ff9c917)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Extensive research has developed effective global path planning algorithms, including graph search, random sampling, and bionic algorithms. Notably, the Dijkstra Algorithm is a key method in graph search [9x], recognized for solving optimization problems, including path planning [10x]. Path planning algorithms are primarily divided into heuristic and optimal path planning. Optimal path planning techniques calculate all costs from one graph point to the next to determine the shortest route to each vertex [11x]. The shortest route problem involves finding the most direct path from a given starting point to a desired destination, typically represented in graph form [12x].
 

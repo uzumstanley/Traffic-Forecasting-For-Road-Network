@@ -222,6 +222,60 @@ The study builds on previous research, such as the work by Botsis and Panagiotop
 ### 2.4. Summary of Technology and Literature Review and Objectives
 
 ### Findings:
+- Dijkstra’s Algorithm: Proven effective for finding shortest paths in graphs. Ideal for navigation in complex environments like university campuses and road networks [4, 5].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

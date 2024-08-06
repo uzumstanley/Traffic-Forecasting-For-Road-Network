@@ -211,6 +211,22 @@ While Bellman-Ford's ability to handle negative weights is advantageous in certa
 #### Practical Applications of Dijkstra’s Algorithm
 Dijkstra’s algorithm has been successfully employed in various practical scenarios, such as optimizing urban rail networks and facilitating building evacuations, demonstrating its versatility and reliability [2].These applications underscore the algorithm's suitability for traffic forecasting in road networks, including the complex and dynamic environment of London’s road infrastructure.
 
+### Limitations of Existing Navigation Tools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

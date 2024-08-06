@@ -217,8 +217,7 @@ Current navigation tools, such as Google Maps, provide broad route planning serv
 This research aims to address these limitations by implementing a tailored approach using Dijkstra’s algorithm, specifically designed for the navigation needs of London’s road network and the University of Roehampton. By integrating on-site drone surveys for precise data collection and employing advanced software tools, the proposed system aims to deliver an efficient and user-friendly navigation solution.
 
 ### Advancing Current Research
-
-
+The study builds on previous research, such as the work by Botsis and Panagiotopoulos, which applied Dijkstra’s algorithm to campus navigation [2]. By densifying the graph model and developing a web application, this research seeks to enhance user experience and improve the routing algorithm's effectiveness. This focused approach aims to fill existing gaps and extend the applicability of Dijkstra’s algorithm to more complex and dynamic traffic forecasting scenarios within road networks.
 
 
 

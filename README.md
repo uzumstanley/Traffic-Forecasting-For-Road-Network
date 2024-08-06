@@ -208,6 +208,7 @@ Dijkstra’s algorithm, introduced by Edsger W. Dijkstra in 1959, is a seminal m
 The Bellman-Ford algorithm, developed by Richard Bellman and Lester Ford Jr., calculates shortest paths in a graph and can handle graphs with negative edge weights. However, its higher time complexity (O(|E||V|)) makes it less efficient than Dijkstra’s algorithm, which has a time complexity of O(|E| log |V|). Given the extensive and complex road network of London and the University of Roehampton, Dijkstra’s algorithm's efficiency makes it a more practical choice.
 While Bellman-Ford's ability to handle negative weights is advantageous in certain scenarios, this feature is unnecessary for navigating London’s road network, where negative edge weights do not exist. Therefore, the additional complexity of Bellman-Ford is unwarranted for this application.
 
+#### Practical Applications of Dijkstra’s Algorithm
 
 
 

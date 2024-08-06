@@ -224,9 +224,9 @@ The study builds on previous research, such as the work by Botsis and Panagiotop
 ### Findings:
 - Dijkstra’s Algorithm: Proven effective for finding shortest paths in graphs. Ideal for navigation in complex environments like university campuses and road networks [4, 5].
 - Real-World Applications: Successfully used in optimizing campus routes (Botsis & Panagiotopoulos, 2020) and urban networks [2]. Highlights its suitability for detailed, constrained environments.
-- Limitations of Existing Tools: Generic tools like Google Maps often fail in providing optimal routes for specific layouts and intricate networks [2, 5]. 
-
-
+- Limitations of Existing Tools: Generic tools like Google Maps often fail in providing optimal routes for specific layouts and intricate networks [2, 5].
+  
+Goal: To reduce traffic congestion and enhance campus navigation through an optimized, tailored navigation system.
 
 
 

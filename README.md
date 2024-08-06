@@ -205,8 +205,7 @@ The Dijkstra algorithm is commonly used in real-time applications, such as geogr
 Dijkstra’s algorithm, introduced by Edsger W. Dijkstra in 1959, is a seminal method for finding the shortest paths in a graph [4, 5]. Extensively utilized in transportation networks, computer science, and urban planning, it calculates the shortest path between nodes in a graph with non-negative weights, making it ideal for road networks. Studies highlight its effectiveness in optimizing routes. For example, Botsis and Panagiotopoulos applied it at the International Hellenic University in Serres, Greece, finding the shortest routes between campus locations [2]. Their findings confirm the algorithm's efficiency in solving complex routing problems, motivating its use in traffic forecasting and navigation.
 
 ### Choosing Dijkstra’s Algorithm over Bellman-Ford
-
-
+The Bellman-Ford algorithm, developed by Richard Bellman and Lester Ford Jr., calculates shortest paths in a graph and can handle graphs with negative edge weights. However, its higher time complexity (O(|E||V|)) makes it less efficient than Dijkstra’s algorithm, which has a time complexity of O(|E| log |V|). Given the extensive and complex road network of London and the University of Roehampton, Dijkstra’s algorithm's efficiency makes it a more practical choice.
 
 
 

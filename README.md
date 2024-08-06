@@ -201,6 +201,7 @@ The Dijkstra algorithm is commonly used in real-time applications, such as geogr
 
 ### 2.2. Technology Review
 
+### Dijkstra’s Algorithm and Its Relevance
 
 
 

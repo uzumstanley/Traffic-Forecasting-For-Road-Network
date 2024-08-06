@@ -202,7 +202,7 @@ The Dijkstra algorithm is commonly used in real-time applications, such as geogr
 ### 2.2. Technology Review
 
 ### Dijkstra’s Algorithm and Its Relevance
-
+Dijkstra’s algorithm, introduced by Edsger W. Dijkstra in 1959, is a seminal method for finding the shortest paths in a graph [4, 5]. Extensively utilized in transportation networks, computer science, and urban planning, it calculates the shortest path between nodes in a graph with non-negative weights, making it ideal for road networks. Studies highlight its effectiveness in optimizing routes. For example, Botsis and Panagiotopoulos applied it at the International Hellenic University in Serres, Greece, finding the shortest routes between campus locations [2]. Their findings confirm the algorithm's efficiency in solving complex routing problems, motivating its use in traffic forecasting and navigation.
 
 
 

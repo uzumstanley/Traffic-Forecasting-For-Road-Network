@@ -248,6 +248,8 @@ A web service is an internet-based technology defined by the W3C as "a software 
 ### C. Web GIS
 Web GIS initially offered only client access through browsers, incorporating basic GIS functions to minimize system costs. Browsers are an optimal choice because they can extensively utilize GIS, reduce software expenses, simplify operations, and provide a user-friendly interface [12, 13].
 
+D.  System Component
+The web framework is based on a three-tier architecture consisting of the client layer, middleware layer, and database layer. These components provide a unified interface for data consultation, requests, and decision-making. The PostgreSQL database, enhanced with PostGIS, supports both relational and spatial queries. Users interact with the database via the Internet, using a web browser for navigation and spatial analysis. User requests are processed by the Apache Web Server and passed to the GIS server, which queries the database[14]. The system supports system administrators, who manage databases, and teleoperators, who handle data entry, editing, and deletion through a GUI. The system utilizes geographic data for mapping and semantic data for routing and traffic flow information.
 
 
 

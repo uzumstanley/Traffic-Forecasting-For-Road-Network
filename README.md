@@ -245,7 +245,8 @@ Geographic Information Systems (GIS) have been advancing since the 1970s. GIS se
 A web service is an internet-based technology defined by the W3C as "a software system designed to support interoperable machine-to-machine interaction over a network" [11].
 
 
-
+### C. Web GIS
+Web GIS initially offered only client access through browsers, incorporating basic GIS functions to minimize system costs. Browsers are an optimal choice because they can extensively utilize GIS, reduce software expenses, simplify operations, and provide a user-friendly interface [12, 13].
 
 
 

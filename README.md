@@ -252,7 +252,7 @@ D.  System Component
 The web framework is based on a three-tier architecture consisting of the client layer, middleware layer, and database layer. These components provide a unified interface for data consultation, requests, and decision-making. The PostgreSQL database, enhanced with PostGIS, supports both relational and spatial queries. Users interact with the database via the Internet, using a web browser for navigation and spatial analysis. User requests are processed by the Apache Web Server and passed to the GIS server, which queries the database[14]. The system supports system administrators, who manage databases, and teleoperators, who handle data entry, editing, and deletion through a GUI. The system utilizes geographic data for mapping and semantic data for routing and traffic flow information.
 
 ### B. Backend Development
-
+The backend will be developed to manage data processing, implement pathfinding algorithms, and handle database interactions. This will involve setting up servers and API endpoints to facilitate secure and efficient data transactions. The backend infrastructure will be designed to support real-time data updates, query execution, and integration with the frontend, ensuring a seamless user experience. By focusing on robust server architecture and optimized data handling, the backend will enable efficient processing of spatial data, accurate route calculations, and reliable communication with the database, ultimately enhancing the overall performance and scalability of the navigation system.
 
 
 

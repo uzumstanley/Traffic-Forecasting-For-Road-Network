@@ -278,7 +278,8 @@ The primary goal of the GUI was to facilitate easy and efficient access. Accordi
 
 - Easy to learn: Ensures that any user can intuitively use the tool.
 - Robustness: Allows users to recover from unintended situations.
-
+- Interactivity: Enables effective information flow between the user and the system.
+- Event-based: Keeps users constantly aware of the tasks they are performing.
 
 
 

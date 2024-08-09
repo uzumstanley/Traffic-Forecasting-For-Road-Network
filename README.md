@@ -272,7 +272,12 @@ The target users are decision-makers with moderate computer skills, emphasizing 
 
 The tool includes a set of graphical user interfaces and is designed for web platforms. Its open architecture facilitates the easy addition of new functionalities.
 
+A. Graphical User Interface (GUl) 
 
+The primary goal of the GUI was to facilitate easy and efficient access. According to [15], the following characteristics are essential:
+
+- Easy to learn: Ensures that any user can intuitively use the tool.
+- Robustness: Allows users to recover from unintended situations.
 
 
 

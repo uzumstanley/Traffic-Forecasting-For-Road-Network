@@ -264,7 +264,7 @@ The application will integrate a custom tile map service to provide high-resolut
 ### 3.4  Implementation
 The chosen tools are open-source solutions like MapServer, Leaflet, and PostgreSQL, which provide functionalities comparable to commercial options but at a reduced setup cost. This application is designed with the assumption that users (decision-makers) lack a background in modeling or implementation. Therefore, the information presented to them is straightforward and user-friendly, avoiding technical or conceptual details.
 
-
+To develop the application, an Object-Oriented (OO) methodology, SQL, GO Language, and JavaScript were employed. The application features a main window where all functionalities are accessible via a toolbar or menu, making it easy for users to navigate.
 
 
 

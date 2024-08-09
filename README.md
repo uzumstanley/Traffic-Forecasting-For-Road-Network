@@ -257,7 +257,7 @@ The backend will be developed to manage data processing, implement pathfinding a
 ### C. Web Development
 A web interface using React will be developed to display optimal routes on a digital map of London. This interface will be designed for accessibility via computers, ensuring ease of use for all campus members. The goal is to provide an interactive and responsive experience, allowing users to view and interact with real-time traffic data and optimal routes efficiently. The web application will feature intuitive navigation, real-time updates, and user-friendly design elements, making it a valuable tool for navigating the campus and surrounding areas. By leveraging React's capabilities, the interface will offer a seamless and engaging user experience.
 
-
+### D. Integration of Custom Tile Map Service
 
 
 

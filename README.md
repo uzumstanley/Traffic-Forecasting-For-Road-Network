@@ -281,7 +281,7 @@ The primary goal of the GUI was to facilitate easy and efficient access. Accordi
 - Interactivity: Enables effective information flow between the user and the system.
 - Event-based: Keeps users constantly aware of the tasks they are performing.
 
-
+### B.  Tools
 
 
 

@@ -259,7 +259,7 @@ A web interface using React will be developed to display optimal routes on a dig
 
 ### D. Integration of Custom Tile Map Service
 
-
+The application will integrate a custom tile map service to provide high-resolution drone imagery, ensuring seamless and efficient map rendering. This integration will enhance user interaction by offering detailed and accurate visual representations of the area. The high-resolution imagery will facilitate better route visualization and navigation, improving the overall user experience. By utilizing a custom tile map service, the application will maintain fast loading times and smooth performance, allowing users to interact with the map effortlessly and access up-to-date visual information with ease. This feature will significantly enhance the application's functionality and appeal.
 
 
 

@@ -261,8 +261,8 @@ A web interface using React will be developed to display optimal routes on a dig
 
 The application will integrate a custom tile map service to provide high-resolution drone imagery, ensuring seamless and efficient map rendering. This integration will enhance user interaction by offering detailed and accurate visual representations of the area. The high-resolution imagery will facilitate better route visualization and navigation, improving the overall user experience. By utilizing a custom tile map service, the application will maintain fast loading times and smooth performance, allowing users to interact with the map effortlessly and access up-to-date visual information with ease. This feature will significantly enhance the application's functionality and appeal.
 
-
-
+### 3.4  Implementation
+The chosen tools are open-source solutions like MapServer, Leaflet, and PostgreSQL, which provide functionalities comparable to commercial options but at a reduced setup cost. This application is designed with the assumption that users (decision-makers) lack a background in modeling or implementation. Therefore, the information presented to them is straightforward and user-friendly, avoiding technical or conceptual details.
 
 
 

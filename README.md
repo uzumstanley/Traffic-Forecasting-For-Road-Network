@@ -266,7 +266,11 @@ The chosen tools are open-source solutions like MapServer, Leaflet, and PostgreS
 
 To develop the application, an Object-Oriented (OO) methodology, SQL, GO Language, and JavaScript were employed. The application features a main window where all functionalities are accessible via a toolbar or menu, making it easy for users to navigate.
 
+The target users are decision-makers with moderate computer skills, emphasizing the need for an intuitive interface. The tool is divided into two subsystems:
+- A subsystem for entering location name, editing, or delete road network data
+- A subsystem for managing geographic data display
 
+The tool includes a set of graphical user interfaces and is designed for web platforms. Its open architecture facilitates the easy addition of new functionalities.
 
 
 

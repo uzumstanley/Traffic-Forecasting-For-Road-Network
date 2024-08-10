@@ -308,8 +308,10 @@ Incorporating an efficient shortest-path algorithm within the GIS will reduce ti
 
 In the London Navigator, the experimental system developed for this project, the routing service is implemented using Dijkstra's algorithm. This spatial optimization algorithm is widely used in GIS software for finding the shortest routes. Its performance relies on the data structures used to implement the graph representing the spatial network [16]. The road network is represented by a graph (non-oriented in this case), where each intersection on the physical road is depicted as a node.
 Let G = (N, A) be a graph consisting of a set of nodes (N) and a set of arcs (A), each with a non-negative cost C. This graph is designed for tracing the least-cost path (route) in G. For a given destination node in the network, Dijkstra's algorithm calculates the least accumulated cost between the destination node and every other node, then finds the least-cost path from any origin node to the destination node. The logical procedure of Dijkstra's algorithm is as follows [17]:
-
-
+1. Let the node at which we are starting be called the source node. Assign to the source node an initial value of zero and to all other nodes an initial value of infinity. Mark all nodes as unvisited. Set the source node as current.
+2. For the current node, consider its unvisited neighbors directly connected by links having cost values and calculate their accumulated costs from the source node. If the new accumulated cost is less than the previously recorded cost, overwrite the cost.
+3. When all neighbors directly connected to the current node are completely considered, mark the current node as visited. A visited node will not be checked again, ensuring its accumulated distance is final and minimal.
+4. If all nodes have been visited, finish. Otherwise, set the unvisited node with the least accumulated cost to the source node as the next "current node" and continue from step 2.
 
 
 

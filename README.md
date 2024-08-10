@@ -306,7 +306,8 @@ Figure 7. Operation window(https://london-navigator.netlify.app/map)
 ### A.    Dijkstra's algorithm
 Incorporating an efficient shortest-path algorithm within the GIS will reduce time spent on the road network and address navigation inefficiencies. The optimal routes are those with the minimum required transportation times. A real-time system must be capable of providing prompt responses to such queries. 
 
-
+In the London Navigator, the experimental system developed for this project, the routing service is implemented using Dijkstra's algorithm. This spatial optimization algorithm is widely used in GIS software for finding the shortest routes. Its performance relies on the data structures used to implement the graph representing the spatial network [16]. The road network is represented by a graph (non-oriented in this case), where each intersection on the physical road is depicted as a node.
+Let G = (N, A) be a graph consisting of a set of nodes (N) and a set of arcs (A), each with a non-negative cost C. This graph is designed for tracing the least-cost path (route) in G. For a given destination node in the network, Dijkstra's algorithm calculates the least accumulated cost between the destination node and every other node, then finds the least-cost path from any origin node to the destination node. The logical procedure of Dijkstra's algorithm is as follows [17]:
 
 
 

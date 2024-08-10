@@ -282,7 +282,7 @@ The primary goal of the GUI was to facilitate easy and efficient access. Accordi
 - Event-based: Keeps users constantly aware of the tasks they are performing.
 
 ### B.  Tools
-
+The semantic database is managed by the PostgreSQL database management system. Graphic layers obtained with GIS from the digitization of University of Roehampton routes and the London road network are imported into the Oracle spatial DBMS: PostGIS. Utilizing this Oracle spatial DBMS allows interaction with the mapping module of the web server: Leaflet.
 
 
 

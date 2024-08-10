@@ -304,8 +304,7 @@ Figure 7. Operation window(https://london-navigator.netlify.app/map)
 ### 3.5  Implementation of Dikstral’s Algorithm 
 
 ### A.    Dijkstra's algorithm
-
-
+Incorporating an efficient shortest-path algorithm within the GIS will reduce time spent on the road network and address navigation inefficiencies. The optimal routes are those with the minimum required transportation times. A real-time system must be capable of providing prompt responses to such queries. 
 
 
 

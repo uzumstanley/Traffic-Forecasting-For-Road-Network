@@ -315,7 +315,7 @@ Let G = (N, A) be a graph consisting of a set of nodes (N) and a set of arcs (A)
 
 Dijkstra's algorithm is very similar to the A* algorithm. The cost function c used to evaluate shortest paths in the Dijkstra algorithm is augmented by an estimator function, which estimates the shortest path between two given graph nodes. This is represented as c(s, d) = g(s, v) + h(v, d), where g(s, v) is the cost from source s to v, and h(v, d) is the heuristic estimated cost from v to the destination d. The estimator function is a heuristic that can be chosen arbitrarily. If the estimator function is 0, A* turns into Dijkstra's algorithm [18].
 
-
+###  Simulated test cases and routing
 
 
 

@@ -295,6 +295,8 @@ The web serves as the primary interface for connecting users to the system. The 
 - Database Query: Utilize drop-down lists and checkboxes to query the database, or directly use SQL (Structured Query Language) statements for a combination of relational and spatial queries.
 - Spatial Queries: Perform spatial queries in various ways, such as clicking the search box to query map objects or by entering the identifier, designation, or X and Y coordinates of a post, with results transmitted to the user as an XML document via the web.
 
+![image](https://github.com/user-attachments/assets/7a896d1b-d693-4642-814e-05e3117126b1)
+Figure 6. Welcome window((GUI)https://london-navigator.netlify.app
 
 
 

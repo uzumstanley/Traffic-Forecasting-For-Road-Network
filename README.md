@@ -286,8 +286,14 @@ The semantic database is managed by the PostgreSQL database management system. G
 
 ### C.Decision Model 
 The web serves as the primary interface for connecting users to the system. The teleoperator uses a Graphical User Interface (GUI) to simplify the interpretation of information, enabling them to (Figure 6):
-
-
+- Control Layers: Toggle the visibility of certain layers.
+- Map Operations: Perform actions like zooming in, zooming out, expanding, planning, and querying specific areas of the map to gain a better understanding of the data in those regions.
+- Focus on London: Directly center on the London road networks.
+- Scale Visualization: View the map at different scales by changing the representation scale.
+- Map Reference: Display a reference map for easier location identification.
+- Full Caption Layers: Show comprehensive caption layers.
+- Database Query: Utilize drop-down lists and checkboxes to query the database, or directly use SQL (Structured Query Language) statements for a combination of relational and spatial queries.
+- Spatial Queries: Perform spatial queries in various ways, such as clicking the search box to query map objects or by entering the identifier, designation, or X and Y coordinates of a post, with results transmitted to the user as an XML document via the web.
 
 
 

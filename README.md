@@ -313,6 +313,7 @@ Let G = (N, A) be a graph consisting of a set of nodes (N) and a set of arcs (A)
 3. When all neighbors directly connected to the current node are completely considered, mark the current node as visited. A visited node will not be checked again, ensuring its accumulated distance is final and minimal.
 4. If all nodes have been visited, finish. Otherwise, set the unvisited node with the least accumulated cost to the source node as the next "current node" and continue from step 2.
 
+Dijkstra's algorithm is very similar to the A* algorithm. The cost function c used to evaluate shortest paths in the Dijkstra algorithm is augmented by an estimator function, which estimates the shortest path between two given graph nodes. This is represented as c(s, d) = g(s, v) + h(v, d), where g(s, v) is the cost from source s to v, and h(v, d) is the heuristic estimated cost from v to the destination d. The estimator function is a heuristic that can be chosen arbitrarily. If the estimator function is 0, A* turns into Dijkstra's algorithm [18].
 
 
 

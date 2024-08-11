@@ -329,7 +329,7 @@ In this scenario, we have a user named Aman Richard, a 29-year-old MSc Data Scie
 
 To solve this problem, Aman decided to use the "London Navigator," a tool recommended by his peer for optimizing the shortest routes on London roads, including those within the University of Roehampton campus. Using the system, Aman entered his starting point (Southlands Chapel) and his desired destination (Oliver Garnet-ROEactive Gym). The system quickly computed and provided the shortest route, complete with clear path-guiding hints displayed on the map.
 ![image](https://github.com/user-attachments/assets/4be831fc-4a6e-4ec9-a602-15f70455c4e2)
-
+Figure 9. Southlands Chapel to Oliver Garnet-ROEactive Gym 
 
 
 

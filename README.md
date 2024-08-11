@@ -331,7 +331,7 @@ To solve this problem, Aman decided to use the "London Navigator," a tool recomm
 ![image](https://github.com/user-attachments/assets/4be831fc-4a6e-4ec9-a602-15f70455c4e2)
 Figure 9. Southlands Chapel to Oliver Garnet-ROEactive Gym 
 
-
+### II. Test Case 2: Locating a Lecture Class Building at the University of Roehampton
 
 
 

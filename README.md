@@ -318,7 +318,7 @@ Dijkstra's algorithm is very similar to the A* algorithm. The cost function c us
 ### B.  Simulated test cases and routing
 
 The algorithm was implemented in Python within a web environment hosted on [Render](https://render.com), which manages the backend, including the database and server operations. Render not only facilitates the handling of road maps online through user-friendly interfaces, but also supports the implementation of the "pgrouting" plugin, which runs on both the client and server sides. The frontend, responsible for the user interface, was hosted on Netlify and developed using Go language. The interface is designed with an intuitive template for easy and effortless use, as illustrated in the provided image[figure 6].
-
+Users can view specific locations on the map by entering the name of the location. Additionally, they can determine the shortest route to a destination by specifying the starting and ending points. The algorithm then computes and displays the shortest route on the map. Whenever a routing operation is performed, the location names are passed as parameters from the client interface to the server. The server connects to the database, processes the request, computes the shortest path between the specified points, and highlights it on the map with a distinct color, see figure 7.
 
 
 

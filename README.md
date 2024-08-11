@@ -451,8 +451,7 @@ Goal: To reduce traffic congestion and enhance campus navigation through an opti
 ### Practical Applications of Dijkstra’s Algorithm 
 
 Dijkstra’s algorithm has been successfully employed in various practical scenarios, such as optimizing urban rail networks and facilitating building evacuations, demonstrating its versatility and reliability [2].These applications underscore the algorithm's suitability for traffic forecasting in road networks, including the complex and dynamic environment of London’s road infrastructure.
-
-
+Thanks to the London Navigator, Aman was able to navigate effortlessly to the gym, something that Google Maps could not achieve due to its limitations in recognizing specific campus locations. Consequently, Aman’s problem was resolved efficiently with accurate routing provided by the system, see figure 8.
 
 
 

@@ -327,6 +327,7 @@ Figure 8. The proposed routing solution with Dijkstra's algorithm.
 
 In this scenario, we have a user named Aman Richard, a 29-year-old MSc Data Science student at the University of Roehampton, London. Aman resides at Southlands Chapel, located within the university campus. One day, he decided to go for a workout at the university gym. His fellow student recommended the Oliver Garnet-ROEactive Gym, which is situated on campus. However, Aman was unfamiliar with its exact location.
 
+To solve this problem, Aman decided to use the "London Navigator," a tool recommended by his peer for optimizing the shortest routes on London roads, including those within the University of Roehampton campus. Using the system, Aman entered his starting point (Southlands Chapel) and his desired destination (Oliver Garnet-ROEactive Gym). The system quickly computed and provided the shortest route, complete with clear path-guiding hints displayed on the map.
 
 
 

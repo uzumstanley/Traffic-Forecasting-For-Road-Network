@@ -334,8 +334,7 @@ Figure 9. Southlands Chapel to Oliver Garnet-ROEactive Gym
 ### II. Test Case 2: Locating a Lecture Class Building at the University of Roehampton
 
 this scenario, Dr. John Carter, a newly employed lecturer at the University of Roehampton, faces a challenge. On his first day, Dr. Carter arrives at the university's main entrance, ready to deliver a lecture. However, he struggles to locate the Sir David Bell Building, where his lecture is scheduled to take place. Unfortunately, Google Maps does not provide the precise location of this building within the campus.
-
-
+To resolve this issue, Dr. Carter decides to use the "London Navigator," a tool designed for optimizing routes both within London and specifically on the University of Roehampton campus. At the main entrance, Dr. Carter inputs his current location and sets the Sir David Bell Building as his desired destination.
 
 
 

@@ -336,7 +336,7 @@ Figure 9. Southlands Chapel to Oliver Garnet-ROEactive Gym
 this scenario, Dr. John Carter, a newly employed lecturer at the University of Roehampton, faces a challenge. On his first day, Dr. Carter arrives at the university's main entrance, ready to deliver a lecture. However, he struggles to locate the Sir David Bell Building, where his lecture is scheduled to take place. Unfortunately, Google Maps does not provide the precise location of this building within the campus.
 To resolve this issue, Dr. Carter decides to use the "London Navigator," a tool designed for optimizing routes both within London and specifically on the University of Roehampton campus. At the main entrance, Dr. Carter inputs his current location and sets the Sir David Bell Building as his desired destination.
 The London Navigator quickly calculates the shortest route, providing Dr. Carter with a clear and detailed path to follow. Thanks to the accurate guidance from the system, Dr. Carter is able to navigate through the campus and arrive at the Sir David Bell Building promptly, ensuring that he is on time for his lecture.
-
+This case highlights the effectiveness of the London Navigator in addressing routing challenges that conventional map services, like Google Maps, may not fully support within specialized environments such as a university campus, see figure 9.
 
 
 

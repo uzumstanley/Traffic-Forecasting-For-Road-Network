@@ -338,6 +338,7 @@ To resolve this issue, Dr. Carter decides to use the "London Navigator," a tool 
 The London Navigator quickly calculates the shortest route, providing Dr. Carter with a clear and detailed path to follow. Thanks to the accurate guidance from the system, Dr. Carter is able to navigate through the campus and arrive at the Sir David Bell Building promptly, ensuring that he is on time for his lecture.
 This case highlights the effectiveness of the London Navigator in addressing routing challenges that conventional map services, like Google Maps, may not fully support within specialized environments such as a university campus, see figure 9.
 
+![image](https://github.com/user-attachments/assets/1eb257bc-4e0a-4da5-89be-f63a7c1cf926)
 
 
 

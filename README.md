@@ -339,8 +339,7 @@ The London Navigator quickly calculates the shortest route, providing Dr. Carter
 This case highlights the effectiveness of the London Navigator in addressing routing challenges that conventional map services, like Google Maps, may not fully support within specialized environments such as a university campus, see figure 9.
 
 ![image](https://github.com/user-attachments/assets/1eb257bc-4e0a-4da5-89be-f63a7c1cf926)
-
-
+Figure 10. University of Roehampton Main Entrance to Sir David Bell Building
 
 
 

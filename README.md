@@ -349,6 +349,7 @@ The London Navigator promptly calculates the shortest route, offering precise tu
 
 This scenario demonstrates the utility of the London Navigator in aiding delivery personnel by providing them with the most efficient routes, particularly when conventional navigation tools might not offer the same level of detail or accuracy for specific locations, see figure 10.
 
+![image](https://github.com/user-attachments/assets/b746827f-7763-4aab-b73e-86525391b72d)
 
 
 

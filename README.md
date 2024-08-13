@@ -347,6 +347,7 @@ In this scenario, Tom Bennett, a dispatch delivery man, is tasked with deliverin
 To ensure timely delivery, Tom decides to use the "London Navigator," a specialized tool designed to optimize routes within London, including routes leading to the University of Roehampton. Tom inputs his current location in Putney as the starting point and the University of Roehampton main entrance gate as his destination.
 The London Navigator promptly calculates the shortest route, offering precise turn-by-turn directions. This guidance allows Tom to avoid potential traffic delays and navigate directly to the university with ease. As a result, he is able to deliver the pizza to the student on time, ensuring customer satisfaction.
 
+This scenario demonstrates the utility of the London Navigator in aiding delivery personnel by providing them with the most efficient routes, particularly when conventional navigation tools might not offer the same level of detail or accuracy for specific locations, see figure 10.
 
 
 

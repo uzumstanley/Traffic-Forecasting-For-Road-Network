@@ -342,7 +342,7 @@ This case highlights the effectiveness of the London Navigator in addressing rou
 Figure 10. University of Roehampton Main Entrance to Sir David Bell Building
 
 ### III. Test Case 3: Delivering Pizza to the University of Roehampton
-
+In this scenario, Tom Bennett, a dispatch delivery man, is tasked with delivering a pizza to a student waiting at the main entrance gate of the University of Roehampton. Tom is currently in Putney, a nearby area, and needs to find the quickest and most efficient route to the university's main entrance.
 
 
 

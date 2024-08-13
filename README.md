@@ -341,7 +341,7 @@ This case highlights the effectiveness of the London Navigator in addressing rou
 ![image](https://github.com/user-attachments/assets/1eb257bc-4e0a-4da5-89be-f63a7c1cf926)
 Figure 10. University of Roehampton Main Entrance to Sir David Bell Building
 
-
+### III. Test Case 3: Delivering Pizza to the University of Roehampton
 
 
 

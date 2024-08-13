@@ -345,7 +345,7 @@ Figure 10. University of Roehampton Main Entrance to Sir David Bell Building
 In this scenario, Tom Bennett, a dispatch delivery man, is tasked with delivering a pizza to a student waiting at the main entrance gate of the University of Roehampton. Tom is currently in Putney, a nearby area, and needs to find the quickest and most efficient route to the university's main entrance.
 
 To ensure timely delivery, Tom decides to use the "London Navigator," a specialized tool designed to optimize routes within London, including routes leading to the University of Roehampton. Tom inputs his current location in Putney as the starting point and the University of Roehampton main entrance gate as his destination.
-
+The London Navigator promptly calculates the shortest route, offering precise turn-by-turn directions. This guidance allows Tom to avoid potential traffic delays and navigate directly to the university with ease. As a result, he is able to deliver the pizza to the student on time, ensuring customer satisfaction.
 
 
 

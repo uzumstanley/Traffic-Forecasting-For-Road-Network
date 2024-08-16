@@ -359,13 +359,7 @@ Figure 11. Putney to University of Roehampton Main Entrance Gate
 
 
 
-### Paths
-A path is a sequence of edges  such that:
-1. Each pair of consecutive edges  and  share a common endpoint, for 0 ≤ i <n.
-2. If  is not a self loop, it shares one endpoint with  and another endpoint with  (except for the first edge  and the last edge .
 
-### Weighted Graphs
-In a weighted graph, each edge e is assigned a length l(e) . The length of a path P= is the sum of the lengths of its edges:
 
 ### Additional Definitions
 - A path is simple if no vertex appears more than once.

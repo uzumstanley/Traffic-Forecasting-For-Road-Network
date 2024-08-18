@@ -354,7 +354,7 @@ Figure 11. Putney to University of Roehampton Main Entrance Gate
 
 
 ### Chapter 4 Evaluation and Result
-
+To validate the effectiveness of the designed traffic forecasting system, a demonstration was conducted using a web-based client interface. This interface serves as a proof of concept and can be adapted for end-user applications, such as mobile apps, web browser extensions, or integrations with GPS navigation platforms. The client interface grants access to the user’s geolocation and allows for the creation of a route by specifying either the current location or a different starting point, along with the desired destination.
 
 
 

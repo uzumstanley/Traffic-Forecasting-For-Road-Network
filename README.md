@@ -358,7 +358,7 @@ To validate the effectiveness of the designed traffic forecasting system, a demo
 The system dynamically generates a route based on the real-time traffic situation at the moment of the request, integrating google map API to forecast potential congestion by impementing dijkstra algorithm. The generated route aims to minimize travel time by choosing the optimal path under current and predicted traffic conditions. Initially, the system was trained using a manually set historical dataset to simulate traffic conditions and refine the the routing by digitising some missing network link within the system.
 
 One of the system's key features is its ability to adapt to changing traffic conditions during a trip. If the traffic situation alters while the driver is on the road, the system can recalculate the route in real time to maintain the shortest possible travel time. The accuracy of the forecasts is continually evaluated by comparing predicted traffic conditions with the actual outcomes. This feedback mechanism allows the system to learn and improve its predictive accuracy over time, ultimately enhancing route optimization to achieve reduced travel times and alleviate congestion.
-
+To quantify traffic congestion, the system utilized the condition 14≤ n ≤ 20 for d = 60, where n is the number of vehicles and d represents the length of the road segment under study. This criterion assumes that a traffic jam forms when there are between 14 and 20 vehicles within a 60-meter stretch of road.
 
 
 

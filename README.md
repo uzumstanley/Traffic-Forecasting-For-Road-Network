@@ -361,7 +361,12 @@ One of the system's key features is its ability to adapt to changing traffic con
 To quantify traffic congestion, the system utilized the condition 14≤ n ≤ 20 for d = 60, where n is the number of vehicles and d represents the length of the road segment under study. This criterion assumes that a traffic jam forms when there are between 14 and 20 vehicles within a 60-meter stretch of road.
 Additionally, the system leveraged the Google Maps API to calculate the number of markers (vehicles) in a specific neighborhood of the London road network. This data on inflow and outflow across the network aids in forecasting routes that result in reduced travel times. The application of this system within the London road network, including the University of Roehampton area, demonstrated its potential to optimize routes, thereby contributing to a more efficient transportation system.
 
-
+To numerically assess the benefits of the designed traffic forecasting system, the system was tested on approximately 10 different routes under varying traffic conditions, including scenarios with different levels of congestion. The evaluation aimed to quantify the time savings achieved by using the forecasting system compared to not using it.
+The following metrics were used:
+- t1: Time required to complete the route without using the traffic forecasting system.
+- t2: Time required to complete the route using the traffic forecasting system.
+- Δt: The time difference between completing the route without and with the forecasting system, expressed as a percentage.
+Δt =  ..........................................................................(1)
 
 
 

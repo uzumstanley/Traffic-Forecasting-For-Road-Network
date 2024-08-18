@@ -359,7 +359,7 @@ The system dynamically generates a route based on the real-time traffic situatio
 
 One of the system's key features is its ability to adapt to changing traffic conditions during a trip. If the traffic situation alters while the driver is on the road, the system can recalculate the route in real time to maintain the shortest possible travel time. The accuracy of the forecasts is continually evaluated by comparing predicted traffic conditions with the actual outcomes. This feedback mechanism allows the system to learn and improve its predictive accuracy over time, ultimately enhancing route optimization to achieve reduced travel times and alleviate congestion.
 To quantify traffic congestion, the system utilized the condition 14≤ n ≤ 20 for d = 60, where n is the number of vehicles and d represents the length of the road segment under study. This criterion assumes that a traffic jam forms when there are between 14 and 20 vehicles within a 60-meter stretch of road.
-
+Additionally, the system leveraged the Google Maps API to calculate the number of markers (vehicles) in a specific neighborhood of the London road network. This data on inflow and outflow across the network aids in forecasting routes that result in reduced travel times. The application of this system within the London road network, including the University of Roehampton area, demonstrated its potential to optimize routes, thereby contributing to a more efficient transportation system.
 
 
 

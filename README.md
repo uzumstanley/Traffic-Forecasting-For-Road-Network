@@ -368,6 +368,21 @@ The following metrics were used:
 - Δt: The time difference between completing the route without and with the forecasting system, expressed as a percentage.
 Δt =  ..........................................................................(1)
 
+The above calculations demonstrate the efficiency of using the developed system of road traffic forecasting, namely, the following gains in time from 25% to 40% (average values). 
+Nodes	Routes	Total Time with Routing System	Total Time without Routing System
+N1-N2	Acton- Algate	20	25
+N2-N1	Algate- Acton	18	27
+N2-N3	Algate - Anerly	45	58
+N3-N2	Anerly - Algate 	42	60
+N3-N4	Anerly - Balham	25	40
+N4-N3	Balham - Anerly 	23	38
+N4-N5	Balham - Battersea	15	30
+N5-N4	Battersea - Balham 	17	38
+N5-N6	Battersea - Bayswater	20	30
+N6-N5	Bayswater - Battersea 	18	35
+
+Table 1
+In the histogram shown in Fig. 12 presents the time gain for overcoming a route laid without a forecasting system and with a forecasting system (10 routes were considered), while Fig.13 represent the total time gain by using the forecasting system in the 10 test experiment. The obtained results show the expediency of using the designed system for vehicles in urban conditions. 
 
 
 

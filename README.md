@@ -385,6 +385,11 @@ Table 1
 In the histogram shown in Fig. 12 presents the time gain for overcoming a route laid without a forecasting system and with a forecasting system (10 routes were considered), while Fig.13 represent the total time gain by using the forecasting system in the 10 test experiment. The obtained results show the expediency of using the designed system for vehicles in urban conditions. 
 
 
+![image](https://github.com/user-attachments/assets/b0c4d2ec-d438-44cb-a000-07300ac8cbe3)
+
+Fig. 12
+
+Fig. 13
 
 
 

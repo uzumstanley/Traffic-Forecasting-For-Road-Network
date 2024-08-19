@@ -389,6 +389,9 @@ In the histogram shown in Fig. 12 presents the time gain for overcoming a route 
 
 Fig. 12
 
+
+![image](https://github.com/user-attachments/assets/52328643-61ab-4c91-bfa8-c26eeda08c09)
+
 Fig. 13
 
 

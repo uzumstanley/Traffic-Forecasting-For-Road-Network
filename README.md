@@ -395,7 +395,8 @@ Fig. 12
 Fig. 13
 
 
-
+The selected test cases included routes with both minimum and maximum time gains. These cases illustrated the variability in the system's performance, depending on the severity of traffic congestion. In scenarios with heavy congestion, the time savings were more pronounced, demonstrating the system's capacity to significantly reduce travel times by predicting and avoiding traffic jams.
+In summary, the evaluation confirmed that the traffic forecasting system consistently provided time savings, with the magnitude of these savings dependent on the traffic conditions encountered on each route. This demonstrates the practical value of the system in real-world applications, offering potential improvements in commute efficiency and reductions in overall travel time.
 
 
 

@@ -402,6 +402,27 @@ In summary, the evaluation confirmed that the traffic forecasting system consist
 In the domain of traffic forecasting and route optimization, numerous approaches have been proposed to enhance the accuracy and efficiency of transportation systems. A noteworthy contribution is the work by Souad El Houssaini and Abdelmajid Sadri, titled "A Web-Based Spatial Decision Support System for Effective Monitoring and Routing Problem." Their research presents an integrated framework that leverages Geographic Information Systems (GIS) combined with a Relational Database Management System (RDBMS) to improve the monitoring and management of road networks[44] .
 El Houssaini and Sadri's system utilizes GIS technology to collect and analyze geographic data related to road networks and monitoring stations. Their framework not only identifies optimal routes based on minimum cost using Dijkstra's algorithm but also supports the strategic placement and orientation of monitoring stations in response to road incidents. The integration of diverse datasets and advanced information retrieval within a GIS environment demonstrates the system's potential to manage complex spatial data and optimize routing decisions effectively.
 
+The effectiveness of their system was tested on the road network of Mohammedia City in Morocco, where it demonstrated significant improvements in response to road accidents through simulated test cases. The proposed system, described as scalable and well-structured, serves as a comprehensive tool for traffic monitoring and routing, particularly in scenarios requiring rapid and efficient intervention.
+When compared to the current project on traffic forecasting and route optimization in London and the University of Roehampton, El Houssaini and Sadri's work offers valuable insights into the use of GIS and algorithmic methods for managing and optimizing road networks. While their research focuses on the integration of GIS with RDBMS and the application of Dijkstra's algorithm for routing, the current project builds on these methodologies by incorporating real-time traffic data and Google Maps API. This extension aims to dynamically predict traffic patterns and optimize routes, addressing the specific challenges of London's intricate road network.
+Another significant contribution to the field is a study presented at the 1st International Conference of Information Technology to Enhance E-Learning and Other Applications (IT-ELA 2020), hosted by Baghdad College of Economic Sciences University. This study explored the application of parallel computation methods to solve the shortest path problem in vehicular networks [45].
+In their paper titled "A Parallel Implementation Method for Solving the Shortest Path Problem for Vehicular Networks," Emad H. Al-Hemiary and Salim A. Mohammed Ali from Al-Nahrain University in Baghdad, Iraq, investigated the complexities of finding the shortest paths in mobile and densely populated vehicular networks. The authors applied Hedetniemi's Algorithm, a well-known method for calculating multi-source multi-destination shortest paths, and enhanced its computational efficiency using OpenCL (Open Compute Language).
+Their research demonstrated a substantial acceleration in path calculation, achieving a 40x speedup when utilizing parallel computation compared to a sequential approach. This acceleration was particularly evident when handling high-dimensional input data, making the system more responsive and scalable for real-world applications. This study highlights the importance of leveraging parallel computing techniques to address the computational challenges inherent in vehicular networks, a goal that aligns closely with the objectives of the traffic forecasting system developed in the current research.
+These related works underscore the ongoing advancements in traffic management and the potential of integrating advanced computation methods and real-time data to further optimize route planning systems. Such innovations contribute significantly to the overall efficiency and responsiveness of modern transportation networks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

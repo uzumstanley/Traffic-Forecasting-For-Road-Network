@@ -398,7 +398,9 @@ Fig. 13
 The selected test cases included routes with both minimum and maximum time gains. These cases illustrated the variability in the system's performance, depending on the severity of traffic congestion. In scenarios with heavy congestion, the time savings were more pronounced, demonstrating the system's capacity to significantly reduce travel times by predicting and avoiding traffic jams.
 In summary, the evaluation confirmed that the traffic forecasting system consistently provided time savings, with the magnitude of these savings dependent on the traffic conditions encountered on each route. This demonstrates the practical value of the system in real-world applications, offering potential improvements in commute efficiency and reductions in overall travel time.
 
-
+4.1Related Works 
+In the domain of traffic forecasting and route optimization, numerous approaches have been proposed to enhance the accuracy and efficiency of transportation systems. A noteworthy contribution is the work by Souad El Houssaini and Abdelmajid Sadri, titled "A Web-Based Spatial Decision Support System for Effective Monitoring and Routing Problem." Their research presents an integrated framework that leverages Geographic Information Systems (GIS) combined with a Relational Database Management System (RDBMS) to improve the monitoring and management of road networks[44] .
+El Houssaini and Sadri's system utilizes GIS technology to collect and analyze geographic data related to road networks and monitoring stations. Their framework not only identifies optimal routes based on minimum cost using Dijkstra's algorithm but also supports the strategic placement and orientation of monitoring stations in response to road incidents. The integration of diverse datasets and advanced information retrieval within a GIS environment demonstrates the system's potential to manage complex spatial data and optimize routing decisions effectively.
 
 
 

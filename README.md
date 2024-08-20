@@ -415,7 +415,8 @@ The "London Navigator" system, designed for traffic forecasting and route optimi
 
 Test Case 1 highlighted the system's effectiveness in helping Aman Richard, an MSc Data Science student, navigate from Southlands Chapel to the Oliver Garnet-ROEactive Gym within the University of Roehampton. The London Navigator successfully provided a short and clear route, overcoming the limitations of conventional tools like Google Maps, which struggled to recognize specific campus locations. This case illustrated the system's practical value in enhancing campus navigation.
 
-
+Test Case 2 involved Dr. John Carter, a new lecturer at the University of Roehampton, who needed to locate the Sir David Bell Building for his lecture. The London Navigator again proved its effectiveness by quickly guiding him through the campus, ensuring he arrived at his destination on time. This case emphasized the system's utility for university staff and visitors, ensuring timely and accurate navigation across the campus.
+Test Case 3 demonstrated the system's broader applicability by assisting Tom Bennett, a delivery man, in finding the quickest route from Putney to the University of Roehampton's main entrance. The London Navigator enabled Tom to avoid traffic delays by choosing route that is not congested and deliver his pizza on time, underscoring the system's relevance for logistics and delivery services operating within the London area.
 
 
 

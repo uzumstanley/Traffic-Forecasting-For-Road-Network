@@ -411,7 +411,7 @@ These related works underscore the ongoing advancements in traffic management an
 
 ###  Chapter 5  Conclusion 
 
-
+The "London Navigator" system, designed for traffic forecasting and route optimization within the London road network, including the University of Roehampton, has proven to be an effective tool for addressing specific routing challenges that conventional map services may not fully support. Through a series of test cases, the system demonstrated its capability to provide precise and efficient route guidance in scenarios that involved navigating within complex environments like university campuses, see [ Appendix C 1] for more details.
 
 
 

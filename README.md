@@ -413,7 +413,7 @@ These related works underscore the ongoing advancements in traffic management an
 
 The "London Navigator" system, designed for traffic forecasting and route optimization within the London road network, including the University of Roehampton, has proven to be an effective tool for addressing specific routing challenges that conventional map services may not fully support. Through a series of test cases, the system demonstrated its capability to provide precise and efficient route guidance in scenarios that involved navigating within complex environments like university campuses, see [ Appendix C 1] for more details.
 
-
+Test Case 1 highlighted the system's effectiveness in helping Aman Richard, an MSc Data Science student, navigate from Southlands Chapel to the Oliver Garnet-ROEactive Gym within the University of Roehampton. The London Navigator successfully provided a short and clear route, overcoming the limitations of conventional tools like Google Maps, which struggled to recognize specific campus locations. This case illustrated the system's practical value in enhancing campus navigation.
 
 
 

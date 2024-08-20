@@ -420,6 +420,7 @@ Test Case 3 demonstrated the system's broader applicability by assisting Tom Ben
 
 The system's effectiveness was further validated through a rigorous evaluation process, where it consistently provided time savings, particularly in scenarios with heavy traffic congestion. The test results confirmed that the London Navigator could significantly reduce travel times by dynamically predicting traffic patterns and optimizing routes. The system's integration with real-time traffic data and its use of advanced algorithms, such as Dijkstra's algorithm, allowed it to outperform conventional navigation tools, particularly in specialized environments.
 
+In conclusion, the London Navigator represents a significant advancement in traffic forecasting and route optimization within urban settings. Its ability to adapt to real-time traffic conditions and its successful application in diverse test cases within the University of Roehampton highlight its potential as a valuable tool for improving navigation efficiency in complex environments. The system not only offers practical benefits for everyday users but also contributes to reducing congestion and improving overall transportation efficiency within the London road network.
 
 
 

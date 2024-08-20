@@ -432,27 +432,6 @@ In conclusion, the London Navigator represents a significant advancement in traf
 
 
 
-.
-
-### Advancing Current Research
-The study builds on previous research, such as the work by Botsis and Panagiotopoulos, which applied Dijkstra’s algorithm to campus navigation [2]. By densifying the graph model and developing a web application, this research seeks to enhance user experience and improve the routing algorithm's effectiveness. This focused approach aims to fill existing gaps and extend the applicability of Dijkstra’s algorithm to more complex and dynamic traffic forecasting scenarios within road networks.
-
-### 2.4. Summary of Literature Review and Objectives
-### Findings:
-- Dijkstra’s Algorithm: Proven effective for finding shortest paths in graphs. Ideal for navigation in complex environments like university campuses and road networks [4, 5].
-
-- Real-World Applications: Successfully used in optimizing campus routes (Botsis & Panagiotopoulos, 2020) and urban networks [2]. Highlights its suitability for detailed, constrained environments.
-
-- Limitations of Existing Tools: Generic tools like Google Maps often fail in providing optimal routes for specific layouts and intricate networks [2, 5]. 
-
-Goal: To reduce traffic congestion and enhance campus navigation through an optimized, tailored navigation system.
-
-### Practical Applications of Dijkstra’s Algorithm 
-
-Dijkstra’s algorithm has been successfully employed in various practical scenarios, such as optimizing urban rail networks and facilitating building evacuations, demonstrating its versatility and reliability [2].These applications underscore the algorithm's suitability for traffic forecasting in road networks, including the complex and dynamic environment of London’s road infrastructure.
-Thanks to the London Navigator, Aman was able to navigate effortlessly to the gym, something that Google Maps could not achieve due to its limitations in recognizing specific campus locations. Consequently, Aman’s problem was resolved efficiently with accurate routing provided by the system, see figure 8.
-
-
 
 
 

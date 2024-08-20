@@ -409,6 +409,8 @@ In their paper titled "A Parallel Implementation Method for Solving the Shortest
 Their research demonstrated a substantial acceleration in path calculation, achieving a 40x speedup when utilizing parallel computation compared to a sequential approach. This acceleration was particularly evident when handling high-dimensional input data, making the system more responsive and scalable for real-world applications. This study highlights the importance of leveraging parallel computing techniques to address the computational challenges inherent in vehicular networks, a goal that aligns closely with the objectives of the traffic forecasting system developed in the current research.
 These related works underscore the ongoing advancements in traffic management and the potential of integrating advanced computation methods and real-time data to further optimize route planning systems. Such innovations contribute significantly to the overall efficiency and responsiveness of modern transportation networks.
 
+###  Chapter 5  Conclusion 
+
 
 
 

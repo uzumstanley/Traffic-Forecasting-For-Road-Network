@@ -418,7 +418,7 @@ Test Case 1 highlighted the system's effectiveness in helping Aman Richard, an M
 Test Case 2 involved Dr. John Carter, a new lecturer at the University of Roehampton, who needed to locate the Sir David Bell Building for his lecture. The London Navigator again proved its effectiveness by quickly guiding him through the campus, ensuring he arrived at his destination on time. This case emphasized the system's utility for university staff and visitors, ensuring timely and accurate navigation across the campus.
 Test Case 3 demonstrated the system's broader applicability by assisting Tom Bennett, a delivery man, in finding the quickest route from Putney to the University of Roehampton's main entrance. The London Navigator enabled Tom to avoid traffic delays by choosing route that is not congested and deliver his pizza on time, underscoring the system's relevance for logistics and delivery services operating within the London area.
 
-
+The system's effectiveness was further validated through a rigorous evaluation process, where it consistently provided time savings, particularly in scenarios with heavy traffic congestion. The test results confirmed that the London Navigator could significantly reduce travel times by dynamically predicting traffic patterns and optimizing routes. The system's integration with real-time traffic data and its use of advanced algorithms, such as Dijkstra's algorithm, allowed it to outperform conventional navigation tools, particularly in specialized environments.
 
 
 

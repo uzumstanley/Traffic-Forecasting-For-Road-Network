@@ -461,44 +461,8 @@ In conclusion, the London Navigator represents a significant advancement in traf
 
 
 
-Previous efforts to find the fastest routes in public transportation networks were primarily aimed at planning purposes, as referenced in works such as [10] and [11]. However, these attempts did not specifically provide detailed information about travel options within existing transportation networks. Systems used for capacity planning or passenger flow models typically relied on approximate (mean) travel times, which sufficed for those purposes. 
 
 
-Yet, when the objective shifted to providing precise travel information, a much higher level of detail became essential. This involved using exact departure and arrival times, as well as ensuring accurate connection times within the network system flow (known as connectional margins). Achieving such precision demanded significant computer storage and processing power, which may have deterred earlier attempts. Moreover, the cost of computers with adequate capacity may have been prohibitive for customer service applications in the past.
-
-However, the current availability of relatively inexpensive microcomputers with sufficient capabilities, coupled with the growing importance of customer-oriented applications, has facilitated the development of comprehensive travel information systems and path finder. These advancements have made it feasible to create systems that cater to the specific travel needs of individuals with detailed and accurate information.
-
-The traditional graph representation of road network systems has been found inadequate for accurate representation. To address this, concepts of discrete networks and discrete dynamic networks have been developed. 
-In a discrete network, movement between vertices is limited to finite, discrete, predefined possibilities. This contrasts with representing connections through functions that specify varying travel and wait times (as described in [12]). Instead, the very connections themselves are discrete. In a discrete dynamic network, visiting a vertex incurs a cost, which could be zero but might depend on the path's past and future route through the vertex. This adds a temporal and spatial dimension to the network's structure.
-
-Additionally, dynamic networks were introduced, which do not impose discrete connections but still assign a cost to visiting a vertex. These models accommodate more flexible and nuanced representations of real-world transportation systems.
-
-The search algorithms for finding optimal paths in discrete, discrete dynamic, and dynamic networks are distinct due to the nature of their connections and visiting costs.
-
-In discrete and discrete dynamic networks, where connections are discrete and predefined, the definition of an optimal path needs adjustment. To address this, a two-pass algorithm was developed inspired by Dijkstra's algorithm [13]. This algorithm is tailored to navigate the discrete nature of connections and efficiently find optimal paths.
-
-However, in networks with varying visiting costs like discrete dynamic and dynamic networks, the Markov independence principle no longer holds true for optimal solutions. This deviation from traditional shortest path algorithms necessitates novel approaches. 
-
-The two-pass algorithm initially designed for discrete networks has been adapted to handle the complexities of discrete dynamic networks. This adaptation enables efficient pathfinding while accounting for varying costs associated with visiting vertices.
-
-
-The algorithm designed for searching discrete dynamic networks has been implemented in an operational system called London Navigator. This system is actively used to navigate the entire road network of London and to find routes within the University of Roehampton campus. Various techniques such as data cleaning, digitization and distance estimates are employed to enhance the performance of London Navigator.
-
-While the concept of the optimal or quickest solution is well-defined, determining the best answer to a user's query is often less straightforward. Users frequently provide overly specific queries that are not always clearly defined. Many factors influence what constitutes the 'best' answer, and users may not articulate all of these factors explicitly. In road travel, for example, the number of available routes is crucial, but additional considerations may also play a role in determining the optimal answer, which can vary case by case.
-
-Given these complexities, it is challenging to define a single best answer based on specific goals and constraints. Instead, techniques such as multiple-objective shortest path methods or finding suboptimal paths for different objectives have been explored. In practice, the approach involves searching for multiple optimal and suboptimal solutions, including potentially the fastest route, and presenting these options to the user. Ultimately, it is up to the user to decide which solution best fits their needs.
-
-###  GRAPH THEORY
-In mathematics, graph theory focuses on the study of graphs, which are mathematical structures used to model pairwise relationships between objects. In this context, a graph consists of vertices (also known as nodes or points) connected by edges (also referred to as arcs, links, or lines). Graphs can be undirected, where edges symmetrically connect two vertices, or directed, where edges asymmetrically connect two vertices. Graphs are a fundamental subject in discrete mathematics.
-
-![image](https://github.com/user-attachments/assets/eb174b9f-7cdf-420b-b7ba-43d89fda84d6)
-A drawing of a graph.
-
-
-### Transport network analysis
-A transport network, also known as a transportation network, is a system or graph within a geographic space that outlines the infrastructure enabling and limiting movement or flow. Examples encompass road networks, railways, air routes, pipelines, aqueducts, and power lines. Digitally representing these networks and the techniques for their examination are fundamental to spatial analysis, geographic information systems, public utilities, and transport engineering. Network analysis applies the theories and algorithms of graph theory and constitutes a type of proximity analysis.
-
-### Flow Network
 In graph theory, a flow network, also referred to as a transportation network, is a directed graph where each edge has a designated capacity and carries a specific flow. The flow on any given edge cannot exceed its capacity. In operations research, this directed graph is typically called a network, with vertices termed nodes and edges termed arcs. A flow network must adhere to the rule that the total flow into a node equals the total flow out, except for a source node, which only has outgoing flow, or a sink node, which only has incoming flow. Such networks can model various systems, including traffic in computer networks, circulation with demands, fluids in pipes, electrical currents, or any scenario where something moves through a network of nodes.
 A network is a directed graph \( G = (V, E) \) characterized by a non-negative capacity function \( c \) for each edge, with no multiple arcs (i.e., no two edges share the same source and target nodes). Typically, it is assumed that if \( (u, v) \in E \), then \( (v, u) \) is also in \( E \). If \( (v, u) \notin E \), we can add \( (v, u) \) to \( E \) and set \( c(v, u) = 0 \).
 

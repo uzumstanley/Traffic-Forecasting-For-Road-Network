@@ -467,31 +467,7 @@ In conclusion, the London Navigator represents a significant advancement in traf
 
 
 
-![image](https://github.com/user-attachments/assets/575d3460-02cf-4597-8b34-fda853a68a66)
-Shortest path (A, C, E, D, F) between vertices A and F in the weighted directed graph
 
-
-
-
-### 2.1. A Weighted Undirected Graph
-
-
-A graph G = (V, E) consists of:
-
-- A set of vertices 
-- A set of edges 
-
-Each edge e connects a pair of vertices {u,v}, where u and v may be the same or different. The vertices u and v are called the endpoints of edge e. If u and v are the same, e is called a self loop. Edges connecting the same pair of vertices are called parallel.
-
-In a finite graph, both V and E are finite sets. In an undirected graph, the order of the vertices in an edge does not matter.
-
-### Paths
-
-A path is a sequence of edges  such that:
-1. Each pair of consecutive edges  and  share a common endpoint, for 0 ≤ i <n.
-2. If  is not a self loop, it shares one endpoint with  and another endpoint with  (except for the first edge  and the last edge .
-
-### Weighted Graphs
 
 In a weighted graph, each edge e is assigned a length l(e) . The length of a path P= is the sum of the lengths of its edges:
 

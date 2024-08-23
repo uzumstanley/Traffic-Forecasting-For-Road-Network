@@ -426,7 +426,7 @@ In conclusion, the London Navigator represents a significant advancement in traf
 ### Future Work
 
 Building on the successful implementation and evaluation of the London Navigator system, several enhancements are planned to expand its functionality and further improve its effectiveness in real-world applications.
-
+One of the key areas for future development is the integration of GPS capabilities into the system. By incorporating GPS technology, the London Navigator can be transformed into a robust device tracker, allowing users to monitor the real-time location of their devices within the network. This feature would be particularly useful for applications such as fleet management, where it is crucial to track the location and movement of vehicles to optimize routes and improve overall efficiency.
 
 
 

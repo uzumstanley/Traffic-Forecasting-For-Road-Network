@@ -435,6 +435,7 @@ These planned enhancements will significantly extend the utility of the London N
 ### 5.2  Reflection
 
 Working on this project has been a deeply rewarding experience, offering both challenges and opportunities for growth. The process of developing the London Navigator system not only allowed me to explore an area of personal interest but also significantly expanded my technical skills and knowledge in the field of traffic forecasting and route optimization.
+One of the most valuable aspects of this project was the hands-on experience I gained with Geographic Information Systems (GIS) tools, particularly QGIS. Through this, I learned how to digitize road networks, a critical skill that enabled me to construct accurate representations of London's complex road system. This experience was pivotal in laying the foundation for the project, as it allowed for the precise mapping of routes and the integration of real-time traffic data.
 
 
 

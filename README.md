@@ -438,7 +438,7 @@ Working on this project has been a deeply rewarding experience, offering both ch
 One of the most valuable aspects of this project was the hands-on experience I gained with Geographic Information Systems (GIS) tools, particularly QGIS. Through this, I learned how to digitize road networks, a critical skill that enabled me to construct accurate representations of London's complex road system. This experience was pivotal in laying the foundation for the project, as it allowed for the precise mapping of routes and the integration of real-time traffic data.
 
 
-
+I also acquired practical knowledge in graph construction using data from Transport for London (TfL). This involved creating a network model that could be efficiently navigated by algorithms, further deepening my understanding of the underlying structures that drive traffic management systems. Implementing Dijkstra's algorithm on the London road network was another significant milestone in this project. This task challenged me to apply theoretical concepts in a practical context, enhancing my problem-solving skills and reinforcing my understanding of algorithmic efficiency.
 
 
 

@@ -440,7 +440,7 @@ One of the most valuable aspects of this project was the hands-on experience I g
 
 I also acquired practical knowledge in graph construction using data from Transport for London (TfL). This involved creating a network model that could be efficiently navigated by algorithms, further deepening my understanding of the underlying structures that drive traffic management systems. Implementing Dijkstra's algorithm on the London road network was another significant milestone in this project. This task challenged me to apply theoretical concepts in a practical context, enhancing my problem-solving skills and reinforcing my understanding of algorithmic efficiency.
 
-
+The project goals were met largely because of my passion for this area of study. My previous work on a smaller-scale project in the same domain provided a strong foundation, enabling me to expand the scope to a larger network system with confidence. This continuity allowed me to build on my earlier successes and apply lessons learned to this more ambitious undertaking.
 
 
 

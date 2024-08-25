@@ -469,23 +469,7 @@ In hindsight, while I am pleased with the outcomes, there are a few aspects I wo
 
 
 
-In a weighted graph, each edge e is assigned a length l(e) . The length of a path P= is the sum of the lengths of its edges:
 
-
-### Additional Definitions
-
-- A path is simple if no vertex appears more than once.
-- A graph is connected if, for every pair of vertices u and v in V, there exists a path that starts at u and ends at v.
-- A circuit is a path where the start and end vertices are the same.
-- A connected graph which has no circuits is called a tree. 
-For an example of a weighted graph, consider Figure 2.1, which includes:
-
-- The set of vertices: {A,B,C,D,E,F}
-- The set of edges: {}
-
-In this graph:
-- Edges  and  are parallel.
-- Edge  is a self loop.
 
 The length of the simple path  is  2 + 9 + 6 = 17 .
 

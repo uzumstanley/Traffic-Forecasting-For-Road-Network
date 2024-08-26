@@ -475,21 +475,7 @@ In hindsight, while I am pleased with the outcomes, there are a few aspects I wo
 
 
 
-A directed path is a sequence of edges ,,...., such that the end vertex of  is the start vertex of  for 0 ≤ i < n. The length of a directed path and a simple directed path are defined similarly to those in an undirected case.
 
-A directed graph (V, E) is called strongly connected if for every pair of vertices u and v in V, there exists a directed path from u to v and a directed path from v to u. A weighted, directed, strongly connected graph is known as a network.
-
-
- ### 2.3. Representing a Road Network by a Graph
-
-A (physical) road network can be represented using a weighted, non-directed, finite graph. 
-
-- Vertices V: Represent the road structures.
-- Edges E: Represent the connecting roads.
-
-An edge e connects two vertices u and v if and only if there is a road connecting the road strucrures represented by u and v.
-
-The length of an edge e, denoted l(e), is defined as the distance (in kilometers, for instance) separating the road structures connected by e. The length of a path in the road network is the total distance covered by traveling along that path.
 
 To illustrate this, consider a graph representing a small part of the London Road network, which has been simplified and modified for clarity; see Figure 2.3. This example demonstrates how the distances between road structures can be represented as edge lengths in a graph, and how the total distance of a path can be calculated by summing the lengths of the edges that comprise it.
   

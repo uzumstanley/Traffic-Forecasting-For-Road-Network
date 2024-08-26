@@ -474,25 +474,6 @@ In hindsight, while I am pleased with the outcomes, there are a few aspects I wo
 
 
 
-The length of the simple path  is  2 + 9 + 6 = 17 .
-
-The path  forms a simple circuit.
-
-Additionally, the graph depicted in Figure 2.2 is a tree.
-
-
-Fig. 2.1. A weighted non-directed graph 
-
-
-Fig. 2.2. A tree 
-
-
-### 2.2. A Weighted Directed Graph
-
-In a directed graph, the endpoints of an edge have a specific order. The first endpoint is called the start vertex and the second endpoint is called the end vertex. An edge is considered directed from its start vertex to its end vertex. 
-
-- Parallel edges: Edges with the same start and end vertices.
-- Antiparallel edges: If u  v and  is directed from u to v while  is directed from v to u, then  and  are antiparallel.
 
 A directed path is a sequence of edges ,,...., such that the end vertex of  is the start vertex of  for 0 ≤ i < n. The length of a directed path and a simple directed path are defined similarly to those in an undirected case.
 

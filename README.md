@@ -4,27 +4,7 @@ Analyzing road networks is crucial for generating accurate and effective informa
 By improving traffic management, cities can reduce economic losses and enhance productivity. This project aims to develop a system that provides optimal routes for travelers within London and aids in effortless navigation within the University of Roehampton campus. The system leverages Dijkstra's algorithm to determine the shortest route from the traveler’s starting point to their destination. By offering real-time, optimized routing solutions, the system addresses traffic congestion problems by directing travelers through the shortest paths, thereby reducing travel time and enhancing overall efficiency.
 
 
-###  1.1. Problem Description, Context and Motivation
 
-Traffic congestion in London leads to significant time and economic losses. The INRIX 2022 Global Traffic Scorecard reports that the average London driver lost £1,377 in time due to congestion, severely impacting productivity and economic efficiency. Additionally, navigating the University of Roehampton campus presents challenges for newcomers, including students, visitors, and newly employed staff, who may struggle to find optimal routes.
-
-The primary individuals affected are London drivers and commuters facing daily delays and increased travel costs, as well as University of Roehampton students and visitors experiencing navigation difficulties, particularly during peak times such as the start of semesters. 
-
-Solving London’s traffic congestion is crucial for reducing travel costs and time, enhancing quality of life and productivity for commuters. Effective traffic management can lead to substantial economic savings and a more efficient transportation system. Similarly, improving campus navigation at the University of Roehampton is important for providing a positive experience for students, staff, and visitors, facilitating easier access to campus facilities and reducing time spent navigating the campus.
-
-
- 
-### 1.2 Objectives 
-The primary aim of this research is to develop an optimized navigation system for the London road network and the University of Roehampton campus using a path-finding algorithm. The specific objectives are as follows:
-### 1.To map the London route network as a graph incorporating both drivable roads and footpaths:
- This objective involves creating a comprehensive graph representation of the London road network, including both drivable roads and pedestrian pathways. This detailed mapping will provide the foundation for the navigation system, enabling accurate and efficient route planning.
-### 2. To develop a system to effectively implement a path-finding algorithm to improve navigation efficiency:
-This objective focuses on the implementation of Dijkstra's algorithm to find the shortest and most efficient routes within the mapped network. The system will dynamically adjust routes based on real-time traffic data to minimize travel time and reduce congestion.
-### 3. To design a user-friendly web interface for the navigation system:
-This objective aims to create an intuitive and accessible web interface for users. The interface will allow travelers to easily input their starting points and destinations, view optimal routes, and receive real-time updates on fastest  paths.
-
-### 1.3 Methodology
-This section details the methodology that will be employed to achieve the objectives of this research project. It includes the design, testing and evaluation, project management, and the technologies and processes used.
 
 ### Design 
 The design phase involves several key steps:

@@ -1,16 +1,9 @@
 
-Maps are fundamental tools for presenting and analyzing information on the spatial distribution of business sectors, resources, and individuals requiring services, as well as for determining locations. Woodbury (1996) noted that 85% of all computerized databases globally include a location component, such as a street address, zip code, census tract, or legal description. Geographic Information System (GIS) technology is currently one of the most prominent new research tools and one of the fastest-growing high-tech monitoring systems [4].
-Analyzing road networks is crucial for generating accurate and effective information about roads, aiding decision-makers in selecting optimal routes through mathematical calculations involving dynamic programming [5, 6]. Determining the optimal route is a prevalent research topic in transportation literature [7]. Most technologies used in today's applications, such as Google Maps, which assist vehicle drivers in choosing the best route—whether it is the shortest distance, least time, or most economical—utilize Dijkstra's algorithm [8].
-By improving traffic management, cities can reduce economic losses and enhance productivity. This project aims to develop a system that provides optimal routes for travelers within London and aids in effortless navigation within the University of Roehampton campus. The system leverages Dijkstra's algorithm to determine the shortest route from the traveler’s starting point to their destination. By offering real-time, optimized routing solutions, the system addresses traffic congestion problems by directing travelers through the shortest paths, thereby reducing travel time and enhancing overall efficiency.
 
 
 
 
-### Design 
-The design phase involves several key steps:
-### 1. Data Collection:
-- Obtain London road data from Transport for London (TFL). This data will provide a comprehensive overview of the road network in London, including both drivable roads and pedestrian paths.
-- Digitize campus routes using Google Earth and QGIS. These tools will be used to create an accurate map of the University of Roehampton campus, including all pathways and routes.
+
 
 ### 2. Graph Modeling:
  - The graph network will be digitized and cleaned using QGIS. It will be modeled with Python to represent the London road network as a graph with nodes and edges, ready for further processing.

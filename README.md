@@ -3,28 +3,7 @@
 
 
 
-
-
-### 2. Graph Modeling:
- - The graph network will be digitized and cleaned using QGIS. It will be modeled with Python to represent the London road network as a graph with nodes and edges, ready for further processing.
-
-### 3. Graph Densification:
- - The graph will be densified by adding intermediate nodes and refining edges. This will improve the accuracy and efficiency of the path-finding algorithm, resulting in a detailed and accurate representation of the road network.
-
-### 4. Path-Finding Algorithm Implementation:
- - Dijkstra’s algorithm will be implemented in Python, Go, and JavaScript. It will calculate the shortest paths on the graph and be tested on smaller sections of the graph network before scaling to the entire area.
-
-### 5. Validation:
- - The computed paths will be validated by comparing them with real-world navigation scenarios. User tests will be conducted where participants follow the suggested routes and provide feedback to enhance the system's reliability
-
-### Testing and Evaluation
-Testing and evaluation will involve the following steps:
-
-### 1. System Testing:
-- Initial tests will be conducted on smaller sections of the graph network to ensure the path-finding algorithm works correctly.
-
-### 2. User Testing:
-- Participants will use the system to navigate both London roads and the University of Roehampton campus. Their feedback will be used to make necessary adjustments.
+necessary adjustments.
 
 ### 3. Comparison with Real-World Scenarios:
 - The computed paths will be compared with actual navigation scenarios to validate the accuracy and efficiency of the system.

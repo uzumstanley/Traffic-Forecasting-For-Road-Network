@@ -16,5 +16,7 @@ Maps are fundamental tools for presenting and analyzing information on the spati
 Analysing road networks is crucial for generating accurate and effective information about roads, aiding decision-makers in selecting optimal routes through mathematical calculations involving dynamic programming [5, 6]. Determining the optimal route is a prevalent research topic in transportation literature [7]. Most technologies used in today's applications, such as Google Maps, which assist vehicle drivers in choosing the best route—whether it is the shortest distance, least time, or most economical—utilize Dijkstra's algorithm [8].
 
 
+![image](https://github.com/user-attachments/assets/b46554bb-22d0-4609-af14-b3e34f44fd31)
+
 Figure 1. United Kingdom Road Network System
 

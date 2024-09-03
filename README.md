@@ -13,3 +13,8 @@ A recent report from the leading Global Positioning System (GPS) company TomTom 
 
 Maps are fundamental tools for presenting and analyzing information on the spatial distribution of business sectors, resources, and individuals requiring services, as well as for determining locations. Woodbury (1996) noted that 85% of all computerized databases globally include a location component, such as a street address, zip code, census tract, or legal description. Geographic Information System (GIS) technology is currently one of the most prominent new research tools and one of the fastest-growing high-tech monitoring systems [4].
 
+Analysing road networks is crucial for generating accurate and effective information about roads, aiding decision-makers in selecting optimal routes through mathematical calculations involving dynamic programming [5, 6]. Determining the optimal route is a prevalent research topic in transportation literature [7]. Most technologies used in today's applications, such as Google Maps, which assist vehicle drivers in choosing the best route—whether it is the shortest distance, least time, or most economical—utilize Dijkstra's algorithm [8].
+
+
+Figure 1. United Kingdom Road Network System
+

@@ -20,3 +20,11 @@ Analysing road networks is crucial for generating accurate and effective informa
 
 Figure 1. United Kingdom Road Network System
 
+
+
+Limitations of Dijkstra's Algorithm and Alternatives
+While Dijkstra's algorithm is widely used for finding the shortest path in a graph, it has some limitations:
+1.Complexity in Large Networks: Dijkstra's algorithm can be computationally intensive, especially in large road networks with many nodes and edges.
+2.Assumes Positive Weights: The algorithm assumes all edges have non-negative weights, which might not be applicable in all real-world scenarios (e.g., certain cost factors could be negative).
+Single Source Limitation: Dijkstra's algorithm finds the shortest path from a single source node to all other nodes. It isn't inherently designed for scenarios where multiple source-destination pairs need to be optimized simultaneously.
+

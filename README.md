@@ -28,3 +28,9 @@ While Dijkstra's algorithm is widely used for finding the shortest path in a gra
 2.Assumes Positive Weights: The algorithm assumes all edges have non-negative weights, which might not be applicable in all real-world scenarios (e.g., certain cost factors could be negative).
 Single Source Limitation: Dijkstra's algorithm finds the shortest path from a single source node to all other nodes. It isn't inherently designed for scenarios where multiple source-destination pairs need to be optimized simultaneously.
 
+Alternative Algorithms:
+A* (A-star) Algorithm: This is a more efficient alternative that uses heuristics to speed up the search, particularly in large networks. A* is often preferred in scenarios where a path must be found quickly, such as in real-time navigation systems.
+Bellman-Ford Algorithm: Unlike Dijkstra’s, Bellman-Ford can handle graphs with negative weight edges. It is slower but can be useful when dealing with specific types of transportation networks where certain paths may have negative costs.
+Floyd-Warshall Algorithm: This algorithm is used to find the shortest paths between all pairs of nodes in a weighted graph. It is useful in dense graphs and for scenarios where multiple route optimizations are required.
+By improving traffic management, cities can reduce economic losses and enhance productivity[7]. This project aims to develop a system that provides optimal routes for travelers within London and aids in effortless navigation within the University of Roehampton campus. The system leverages Dijkstra's algorithm to determine the shortest route from the traveler’s starting point to their destination. By offering real-time, optimized routing solutions, the system addresses traffic congestion problems by directing travelers through the shortest paths, thereby reducing travel time and enhancing overall efficiency.
+

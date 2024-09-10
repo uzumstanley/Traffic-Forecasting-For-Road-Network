@@ -34,3 +34,8 @@ Bellman-Ford Algorithm: Unlike Dijkstra’s, Bellman-Ford can handle graphs with
 Floyd-Warshall Algorithm: This algorithm is used to find the shortest paths between all pairs of nodes in a weighted graph. It is useful in dense graphs and for scenarios where multiple route optimizations are required.
 By improving traffic management, cities can reduce economic losses and enhance productivity[7]. This project aims to develop a system that provides optimal routes for travelers within London and aids in effortless navigation within the University of Roehampton campus. The system leverages Dijkstra's algorithm to determine the shortest route from the traveler’s starting point to their destination. By offering real-time, optimized routing solutions, the system addresses traffic congestion problems by directing travelers through the shortest paths, thereby reducing travel time and enhancing overall efficiency.
 
+
+
+
+### 1.1 Problem Description, Context and Motivation
+Traffic congestion in London remains a persistent issue, leading to significant time delays and economic losses. According to the INRIX 2022 Global Traffic Scorecard, the average London driver lost £1,377 in time due to congestion, which severely impacts productivity and economic efficiency across the city [1]. This congestion exacerbates daily challenges for commuters, who face increased travel times and higher transportation costs. The ripple effect of this congestion affects not only individual drivers but also the broader economy, as delays contribute to lost working hours, increased fuel consumption, and environmental degradation due to higher emissions.

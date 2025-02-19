@@ -1,18 +1,27 @@
 package config
 
 import (
+	"github.com/joho/godotenv"
 	"github.com/spf13/viper"
+	"log"
 	"os"
 )
 
-// Config stores all configuration of the application.
-// The values are read by viper from a config file or environment variable.
-type Config struct {
-	DBUrl         string `mapstructure:"DATABASE_URL"`
-	ServerAddress string `mapstructure:"SERVER_ADDRESS"`
+// LoadEnv loads the environment variables from a .env file
+func LoadEnv() {
+	err := godotenv.Load("config.env")
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
 }
 
-// LoadConfig reads configuration from file or environment variables.
+// Config stores all configuration of the application.
+type Config struct {
+	DBUrl         string `mapstructure:"DATABASE_URL"` // Corrected mapping for DATABASE_URL
+	ServerAddress string `mapstructure:"SERVER_ADDRESS"` // Server address
+}
+
+// LoadConfig reads configuration from a file or environment variables
 func LoadConfig(path string) (config Config, err error) {
 	envMode := os.Getenv("ENV")
 	if envMode == "" {
@@ -26,7 +35,8 @@ func LoadConfig(path string) (config Config, err error) {
 		envFileName = "config.env"
 	}
 
-	if os.Getenv("ENV") == "production" {
+	// Set configuration file for viper based on environment mode
+	if envMode == "production" {
 		viper.SetConfigName("config")
 	} else {
 		viper.SetConfigName("devconfig")
@@ -40,6 +50,7 @@ func LoadConfig(path string) (config Config, err error) {
 		return
 	}
 
+	// Read and unmarshal environment variables or config file values into config struct
 	err = viper.Unmarshal(&config)
 	return
 }

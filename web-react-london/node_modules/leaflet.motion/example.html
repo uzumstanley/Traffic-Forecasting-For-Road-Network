@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TestMap</title>
+</head>
+
+<body style="margin: 0; padding: 0; display: flex; align-items: stretch; justify-items: stretch;height: 100vh;">
+  <div id="map" style="flex: 1 1 auto; flex-grow: 1;"></div>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  <script src="src/leaflet.motion.js"></script>
+  <script src="src/leaflet.motion.utils.js"></script>
+  <script src="src/leaflet.motion.easing.js"></script>
+  <script src="src/layer/leaflet.motion.polyline.js"></script>
+  <script src="src/layer/leaflet.motion.polygon.js"></script>
+  <script src="src/layer/leaflet.motion.group.js"></script>
+  <script src="src/layer/leaflet.motion.seq.js"></script>
+  <script src="/control.js"></script>
+  <script>
+
+
+  L.Motion.Dynamicline = L.Motion.Polyline.extend({
+    addPoint: function(latLng) {
+        if (this.animation) {
+            this.motionPause();
+            this._linePoints.push(latLng);
+            this.motionOptions.duration = L.Motion.Utils.getDuration(this._map, this._linePoints, this.motionOptions.speed);
+            this.motionResume();
+        } else {
+            this._linePoints.push(latLng);
+            this._motion((new Date).getTime());
+        }
+    }
+  });
+
+  L.motion.dynamicline = function(latlngs, options, motionOptions, markerOptions){
+      return new L.Motion.Dynamicline(latlngs, options, motionOptions, markerOptions);
+  };
+
+    function addButtonToMap() {
+      L.control.custom({
+        position: 'bottomright',
+        content: '<button id="btnAutoPlay" type="button" >' +
+          '    START' +
+          '</button>',
+        style: {
+          margin: '5px',
+          padding: '0px 0 0 0',
+          cursor: 'pointer',
+
+        },
+
+        events: {
+          click: function (data) {
+            console.log('start motion');
+            startMotion();
+          },
+
+        }
+      })
+        .addTo(map);
+
+
+    }
+
+
+    var seq;
+    var map = L.map('map');
+    var Esri_WorldGrayCanvas = L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+      maxZoom: 16
+    }).addTo(map);
+
+    var points = [
+      [45.62754, 8.71508],
+      [21.03653, -86.87708],
+      [40.49181, -3.56948]
+    ];
+
+    map.setView(points[0], 11);
+    map.fitBounds(points);
+
+    var layers1 = L.motion.polyline([points[0], points[1]], {
+      color: "#0067b0"
+    }, {
+      auto: false,
+      duration: 3000,
+      easing: L.Motion.Ease.easeInOutQuart
+    }, {
+      removeOnEnd: true,
+      showMarker: false,
+      icon: L.divIcon({
+        html: "<i class='fas fa-plane fa-2x' aria-hidden='true'></i>",
+        iconSize: L.point(27.5, 24)
+      })
+    });
+
+    var layers2 = L.motion.dynamicline([points[1], points[2]], {
+      color: "#0067b0"
+    }, {
+      auto: false,
+      duration: 3000,
+      easing: L.Motion.Ease.easeInOutQuart
+    }, {
+      removeOnEnd: true,
+      showMarker: false,
+      icon: L.divIcon({
+        html: "<i class='fas fa-plane fa-2x' aria-hidden='true'></i>",
+        iconSize: L.point(27.5, 24)
+      })
+    });
+    addButtonToMap();
+
+
+    seq = L.motion.seq([layers1, layers2], {
+      auto: false
+    });
+    seq.addTo(map);
+
+    seq.on(L.Motion.Event.Ended, function (evt) {
+      document.getElementById('btnAutoPlay').disabled = false;
+    });
+
+    map.on("click", function(e) {
+        layers2.addPoint(L.latLng(e.latlng));
+    })
+
+    function startMotion() {
+      seq.motionStart();
+
+    }
+  </script>
+</body>
+
+</html>

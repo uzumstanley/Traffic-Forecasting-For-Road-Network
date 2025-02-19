@@ -9,7 +9,7 @@ export interface All {
 
 
 const axiosInstance = axios.create({
-     baseURL: 'https://routing-server-london.onrender.com/',
+     baseURL: 'http://localhost:8080',
 })
 
 class APIClient<T> {

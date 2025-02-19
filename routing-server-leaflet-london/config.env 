@@ -1,0 +1,9 @@
+SERVER_ADDRESS=0.0.0.0:8080
+GIN_MODE=release
+PGUSER=avnadmi
+PGPASSWORD=AVNS_GfnlQiKd5aysdMgtVBu
+PG_CONTAINER_NAME=london_navigator
+PGHOST=london-navigator-london-navigator.h.aivencloud.com
+PGPORT=22562
+PGDATABASE=defaultdb
+DATABASE_URL=postgres://avnadmin:AVNS_GfnlQiKd5aysdMgtVBu@london-navigator-london-navigator.h.aivencloud.com:22562/defaultdb?sslmode=require

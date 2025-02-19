@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/production.ts"],"sourcesContent":["'use client'\n\nimport * as devtools from './devtools'\n\nexport const ReactQueryDevtools = devtools.ReactQueryDevtools\n"],"mappings":";;;AAEA,YAAY,cAAc;AAEnB,IAAMA,sBAA8B;","names":["ReactQueryDevtools"]}
